@@ -1,0 +1,6 @@
+matplotlib
+numpy
+pandas
+cairosvg
+scikit-learn>=0.20.2
+biopython
