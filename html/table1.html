@@ -1,0 +1,5856 @@
+<div class="table-wrapper ">
+        <div class="table-title">
+            <div class="row">
+                <!--
+                    <div class="col-sm-6"><h2>Manage <b>Domains</b></h2></div>   
+                -->
+                <div class="col-sm-6">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="status" value="all" checked="checked"> All
+                        </label>
+                        <label class="btn btn-danger">
+                            <input type="radio" name="status" value="predicted"> Predicted
+                        </label>
+                        <label class="btn btn-success">
+                            <input type="radio" name="status" value="published"> Published
+                        </label>						
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <table class="table table-hover " id="Table1">
+            <thead class="thead-dark">
+                <tr>
+<th>BGC&nbsp;ID</th>
+<th>BGC&nbsp;source</th>
+<th>Product</th>
+<th>Reference</th>
+<th>Pathway&nbsp;Source</th>
+<th>Gene&nbsp;Order&nbsp;in&nbsp;Pathway</th>
+</tr>
+</thead>
+<tbody>
+<tr data-status='published'>
+<td>BGC_1</td>
+<td>averm 001-004</td>
+<td>avermectin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/10449723'>10449723</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>aveA1&#8594aveA2&#8594aveA3&#8594aveA4</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_2</td>
+<td>myxot 001-006</td>
+<td>myxothiazol</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/10601310'>10601310</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>mtaB&#8594mtaC&#8594mtaD&#8594mtaE&#8594mtaF&#8594mtaG</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_3</td>
+<td>epoth 001-006</td>
+<td>epothilone</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/10649995'>10649995</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>epoA&#8594epoB&#8594epoC&#8594epoD&#8594epoE&#8594epoF</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_4</td>
+<td>ascom 001-003</td>
+<td>ascomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/10863099'>10863099</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>fkbB&#8594fkbC&#8594fkbA</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_5</td>
+<td>nysta 001-006</td>
+<td>nystatin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/10873841'>10873841</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>nysA&#8594nysB&#8594nysC&#8594nysI&#8594nysJ&#8594nysK</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_6</td>
+<td>olean 001-003</td>
+<td>oleandomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/10908114'>10908114</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>oleAI&#8594oleAII</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_7</td>
+<td>megal 001-003</td>
+<td>megalomicin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/10972798'>10972798</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>megAI&#8594megAII&#8594megAIII</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_8</td>
+<td>pimar 001-005</td>
+<td>pimaricin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/11094342'>11094342</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>pimS0&#8594pimS1&#8594pimS2&#8594pimS3&#8594pimS4</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_9</td>
+<td>myxal 001-006</td>
+<td>myxalamide</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/11182319'>11182319</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>mxaF&#8594mxaE&#8594mxaD&#8594mxaC&#8594mxaB1&#8594mxaB2</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_10</td>
+<td>rifam 001-005</td>
+<td>rifamycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/11278540'>11278540</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>rifA&#8594rifB&#8594rifC&#8594rifD&#8594rifE</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_11</td>
+<td>spino 001-005</td>
+<td>spinosad</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/11358695'>11358695</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>spnA&#8594spnB&#8594spnC&#8594spnD&#8594spnE</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_12</td>
+<td>ampho 001-006</td>
+<td>amphotericin b</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/11451671'>11451671</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>amphA&#8594amphB&#8594amphC&#8594amphI&#8594amphJ&#8594amphK</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_13</td>
+<td>stigm 001-009</td>
+<td>stigmatellin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/11809757'>11809757</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>stiA&#8594stiB&#8594stiC&#8594stiD&#8594stiE&#8594stiF&#8594stiG&#8594stiH&#8594stiJ</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_14</td>
+<td>sorap 001-002</td>
+<td>soraphen</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/12039053'>12039053</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>sorA&#8594sorB</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_15</td>
+<td>ansam 001-004</td>
+<td>ansamitocin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/12060743'>12060743</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>asmA&#8594asmB&#8594asmC&#8594asmD</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_16</td>
+<td>mycin 001-005</td>
+<td>mycinamicin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/12583909'>12583909</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>mycAI&#8594mycAII&#8594mycAIII&#8594mycAIV&#8594mycAV</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_17</td>
+<td>gelda 001-003</td>
+<td>geldanamycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/12586396'>12586396</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>gdmAI&#8594gdmAII&#8594gdmAIII</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_18</td>
+<td>nanch 001-011</td>
+<td>nanchangmycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/12770825'>12770825</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>nanA1&#8594nanA2&#8594nanA3&#8594nanA4&#8594nanA5&#8594nanA6&#8594nanA7&#8594nanA8&#8594nanA9&#8594nanA10&#8594nanA11</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_19</td>
+<td>phosl 001-006</td>
+<td>phoslactomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/12819191'>12819191</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>plm1&#8594plm2-3&#8594plm4&#8594plm5&#8594plm6&#8594plm7</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_20</td>
+<td>monen 001-008</td>
+<td>monensin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/12940979'>12940979</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>monAI&#8594monAII&#8594monAIII&#8594monAIV&#8594monAV&#8594monAVI&#8594monAVII&#8594monAVIII</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_21</td>
+<td>melit 001-006</td>
+<td>melithiazol</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/14583260'>14583260</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>melB&#8594melC&#8594melD&#8594melE&#8594melF&#8594melG</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_22</td>
+<td>fr008 001-006</td>
+<td>fr-008</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/14652074'>14652074</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>fscA&#8594fscB&#8594fscC&#8594fscD&#8594fscE&#8594fscF</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_23</td>
+<td>aureo 001-003</td>
+<td>aureothin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/14700630'>14700630</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>aurA&#8594aurB&#8594aurC</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_24</td>
+<td>mycol 001-002</td>
+<td>mycolactone</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/14736915'>14736915</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>mlsA1&#8594mlsA2</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_25</td>
+<td>vicen 001-004</td>
+<td>vicenistatin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/15112997'>15112997</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>vinP1&#8594vinP2&#8594vinP3&#8594vinP4</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_26</td>
+<td>borre 001-006</td>
+<td>borrelidin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/15112998'>15112998</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>borA1&#8594borA2&#8594borA3&#8594borA4&#8594borA5&#8594borA6</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_27</td>
+<td>jamai 001-012</td>
+<td>jamaicamide a</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/15217615'>15217615</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>jamA&#8594jamC&#8594jamE&#8594jamF&#8594jamJ&#8594jamK&#8594jamL&#8594jamM&#8594jamN&#8594jamO&#8594jamP&#8594jamQ</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_28</td>
+<td>eryta 001-003</td>
+<td>erythromycin a</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/15257441'>15257441</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>eryAI&#8594eryAII&#8594eryAIII</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_29</td>
+<td>curac 001-014</td>
+<td>curacin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/15332855'>15332855</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>curA&#8594curB&#8594curC&#8594curD&#8594curE&#8594curF&#8594curG&#8594curH&#8594curI&#8594curJ&#8594curK&#8594curL&#8594curM&#8594curN</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_30</td>
+<td>chalc 001-005</td>
+<td>chalcomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/15561847'>15561847</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>ChmGI&#8594ChmGII&#8594ChmGIII&#8594ChmGIV&#8594ChmGV</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_31</td>
+<td>eco02 001-009</td>
+<td>eco-02301</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/15844935'>15844935</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>Orf9&#8594Orf10&#8594Orf11&#8594Orf12&#8594Orf13&#8594Orf14&#8594Orf15&#8594Orf16&#8594Orf17</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_32</td>
+<td>cysto 001-006</td>
+<td>cystothiazole a</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/16041144'>16041144</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>ctaB&#8594ctaC&#8594ctaD&#8594ctaE&#8594ctaF&#8594ctaG</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_33</td>
+<td>conca 001-006</td>
+<td>concanomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/16207901'>16207901</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>conA&#8594conB&#8594conC&#8594conD&#8594conE&#8594conF</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_34</td>
+<td>rapam 001-003</td>
+<td>rapamycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/7644502'>7644502</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>rapA&#8594rapB&#8594rapC</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_35</td>
+<td>nidda 001-005</td>
+<td>niddamycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/9393718'>9393718</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>nidA1&#8594nidA2&#8594nidA3&#8594nidA4&#8594nidA5</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_36</td>
+<td>pikro 001-005</td>
+<td>pikromycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/9770448'>9770448</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>pikAI&#8594pikAII&#8594pikAIII&#8594pikAIV&#8594pikAV</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_37</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000144/'>BGC0000144</a></td>
+<td>polyether salinomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/22156425'>22156425</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>SlnA1&#8594SlnA2&#8594SlnA3&#8594SlnA4&#8594SlnA5&#8594SlnA6&#8594SlnA7&#8594SlnA8&#8594SlnA9</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_38</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000001/'>BGC0000001</a></td>
+<td>abyssomicin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/21656887'>21656887</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>abyB1&#8594abyB2&#8594abyB3</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_39</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000021/'>BGC0000021</a></td>
+<td>apoptolidin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/21869849'>21869849</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>ApoS1&#8594ApoS2&#8594ApoS3&#8594ApoS4&#8594ApoS5&#8594ApoS6&#8594ApoS7&#8594ApoS8</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_40</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000164/'>BGC0000164</a></td>
+<td>tetronomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/18404760'>18404760</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>TmnA1&#8594TmnAII&#8594TmnAIII&#8594TmnAIV&#8594TmnAV</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_41</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000133/'>BGC0000133</a></td>
+<td>quartromicin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/23102224'>23102224</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>qmnA1&#8594qmnA2&#8594qmnA3</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_42</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000060/'>BGC0000060</a></td>
+<td>fostriecin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/23352138'>23352138</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>fosA&#8594fosB&#8594fosC&#8594fosD&#8594fosE&#8594fosF</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_43</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000125/'>BGC0000125</a></td>
+<td>pimaricin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/11094342'>11094342</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>PIMS0&#8594PIMS1&#8594PIMS2&#8594PIMS3&#8594PIMS4</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_44</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001299/'>BGC0001299</a></td>
+<td>chlorotonil</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/26348978'>26348978</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>ctoC&#8594ctoD&#8594ctoE</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_45</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000149/'>BGC0000149</a></td>
+<td>spirangien</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/17317575'>17317575</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>SpiD&#8594SpiE&#8594SpiF&#8594SpiG&#8594SpiH&#8594SpiI&#8594SpiJ</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_46</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000124/'>BGC0000124</a></td>
+<td>piericidin a1</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/22365607'>22365607</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>PieA1&#8594PieA2&#8594PieA3&#8594PieA4&#8594PieA5&#8594PieA6</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_47</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000165/'>BGC0000165</a></td>
+<td>tiacumicin b</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/21186805'>21186805</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>TiaA1&#8594TiaA2&#8594TiaA3&#8594TiaA4</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_48</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000082/'>BGC0000082</a></td>
+<td>kijanimicin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/17985890'>17985890</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>kijS1&#8594kijS2&#8594kijS3&#8594kijS4&#8594kijS5</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_49</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000135/'>BGC0000135</a></td>
+<td>reveromycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/21642985'>21642985</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>revC&#8594revA&#8594revB&#8594revD</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_50</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000158/'>BGC0000158</a></td>
+<td>tautomycetin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/19191560'>19191560</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>ttnA&#8594ttnB</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_51</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000093/'>BGC0000093</a></td>
+<td>meilingmycins</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/20348291'>20348291</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>MeiA1&#8594MeiA2&#8594MeiA3&#8594MeiA4</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_52</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001381/'>BGC0001381</a></td>
+<td>brasilinolide</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/26754528'>26754528</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>nbrK&#8594nbrL&#8594nbrI&#8594nbrJ&#8594nbrG&#8594nbrH</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_53</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001293/'>BGC0001293</a></td>
+<td>cyclizidine</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/26473429'>26473429</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>cycG&#8594cycF&#8594cycE&#8594cycD&#8594cycC&#8594cycB</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_54</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001303/'>BGC0001303</a></td>
+<td>lobosamide</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/26270237'>26270237</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>lobR&#8594lobA&#8594lobB&#8594lobC&#8594lobD&#8594lobE&#8594lobF</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_55</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000050/'>BGC0000050</a></td>
+<td>e-837</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/16724457'>16724457</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>orf3&#8594orf4&#8594orf5&#8594orf6&#8594orf7</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_56</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000051/'>BGC0000051</a></td>
+<td>ebelactone</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/23801186'>23801186</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>ebeA&#8594ebeB&#8594ebeC&#8594ebeD&#8594ebeE&#8594ebeF&#8594ebeG</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_57</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001396/'>BGC0001396</a></td>
+<td>chalcomycins;aldgamycins</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/27191535'>27191535</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>almHI&#8594almHII&#8594almHIII&#8594almHIV&#8594almHV</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_58</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001359/'>BGC0001359</a></td>
+<td>pm100117;pm100118</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/26905289'>26905289</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>GonP1&#8594GonP2&#8594GonP3&#8594GonP4&#8594GonP5&#8594GonP6&#8594GonP7</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_59</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000159/'>BGC0000159</a></td>
+<td>tautomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/18708355'>18708355</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>ttmJ&#8594ttmI&#8594ttmH</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_60</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001066/'>BGC0001066</a></td>
+<td>kendomycin 
+</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/18972512'>18972512</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>ken16&#8594ken12&#8594ken13&#8594ken14</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_61</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001119/'>BGC0001119</a></td>
+<td>divergolide</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/24867126'>24867126</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>divK&#8594divL1&#8594divL2&#8594divL3&#8594divM</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_62</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000029/'>BGC0000029</a></td>
+<td>be-14106</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/19875084'>19875084</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>becA&#8594becC</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_63</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000029/'>BGC0000029</a></td>
+<td>be-14106</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/19875084'>19875084</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>becB&#8594becD&#8594becE&#8594becF&#8594becG</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_64</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000028/'>BGC0000028</a></td>
+<td>bafilomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/23362147'>23362147</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>bafAI&#8594bafAII&#8594bafAIII&#8594bafAIV&#8594bafAV</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_65</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000086/'>BGC0000086</a></td>
+<td>lasalocid</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/19129623'>19129623</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>lsd11&#8594lsd12&#8594lsd13&#8594lsd14&#8594lsd15&#8594lsd16&#8594lsd17</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_66</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000069/'>BGC0000069</a></td>
+<td>gephyronic acid</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/24298873'>24298873</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>gphF&#8594gphG&#8594gphH&#8594gphI&#8594gphJ</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_67</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000157/'>BGC0000157</a></td>
+<td>tautomycetin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/17379718'>17379718</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>tmcA&#8594tmcB</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_68</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001300/'>BGC0001300</a></td>
+<td>anthracimycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/26348978'>26348978</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>atcD&#8594atcE&#8594atcF</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_69</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000116/'>BGC0000116</a></td>
+<td>nystatin-like pseudonocardia polyene</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/19697072'>19697072</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>cppA&#8594cppB&#8594cppC&#8594cppI&#8594cppJ&#8594cppK</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_70</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000032/'>BGC0000032</a></td>
+<td>calcimycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/21173184'>21173184</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>SchA1&#8594SchA2&#8594SchA5&#8594SchA4</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_71</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000049/'>BGC0000049</a></td>
+<td>e-492;e-975</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/16724457'>16724457</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>orf9&#8594orf10&#8594orf11&#8594orf12</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_72</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000042/'>BGC0000042</a></td>
+<td>cremimycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/24014395'>24014395</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>cmiP4&#8594cmiP3&#8594cmiP2</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_73</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000042/'>BGC0000042</a></td>
+<td>cremimycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/24014395'>24014395</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>cmiP1&#8594cmiP5&#8594cmiP8&#8594cmiP7&#8594cmiP6</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_74</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000097/'>BGC0000097</a></td>
+<td>ml-449</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/19854930'>19854930</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>mlaA1&#8594mlaA2&#8594mlaC</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_75</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000097/'>BGC0000097</a></td>
+<td>ml-449</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/19854930'>19854930</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>mlaB&#8594mlaD&#8594mlaE&#8594mlaF&#8594mlaG</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_76</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000078/'>BGC0000078</a></td>
+<td>incednine</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/23921821'>23921821</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>idnP1&#8594idnP2&#8594idnP4&#8594idnP3&#8594idnP5</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_77</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000058/'>BGC0000058</a></td>
+<td>fd-891</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/20589823'>20589823</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>gfsA&#8594gfsB&#8594gfsC&#8594gfsD&#8594gfsE</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_78</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000079/'>BGC0000079</a></td>
+<td>indanomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/19301315'>19301315</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>idmL&#8594idmM&#8594idmN&#8594idmO&#8594idmP</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_79</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000080/'>BGC0000080</a></td>
+<td>jerangolid</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/17185223'>17185223</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>jerA&#8594jerB&#8594jerC&#8594jerD&#8594jerE</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_80</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000106/'>BGC0000106</a></td>
+<td>naphthomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/21614382'>21614382</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>natA&#8594natB&#8594natC&#8594natD&#8594natE</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_81</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001288/'>BGC0001288</a></td>
+<td>maklamicin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/26505309'>26505309</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>makA1&#8594makA2&#8594makA3&#8594makA4</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_82</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000073/'>BGC0000073</a></td>
+<td>halstoctacosanolide</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/16568718'>16568718</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>hlsA&#8594hlsB&#8594hlsC&#8594hlsD&#8594hlsE&#8594hlsF&#8594hlsG</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_83</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000126/'>BGC0000126</a></td>
+<td>pladienolide</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/18997414'>18997414</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>pldAI&#8594pldAII&#8594pldAIII&#8594pldAIV</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_84</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000059/'>BGC0000059</a></td>
+<td>oligomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/23990133'>23990133</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>olmA1&#8594olmA2&#8594olmA3&#8594olmA4&#8594olmA5&#8594olmA6&#8594olmA7</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_85</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000014/'>BGC0000014</a></td>
+<td>ambruticin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/17185223'>17185223</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>ambA&#8594ambB&#8594ambC&#8594ambD&#8594ambE&#8594ambF&#8594ambH</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_86</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001597/'>BGC0001597</a></td>
+<td>fluvirucin b2</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/26818633'>26818633</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>flvp1&#8594flvp2&#8594flvp3</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_87</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001755/'>BGC0001755</a></td>
+<td>reedsmycins</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/29914489'>29914489</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>RdmG&#8594RdmH&#8594RdmI&#8594RdmJ</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_88</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001759/'>BGC0001759</a></td>
+<td>rifamorpholines</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/28422262'>28422262</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>AWH12671.1&#8594AWH12670.1&#8594AWH12669.1&#8594AWH12668.1&#8594AWH12667.1&#8594AWH12666.1&#8594AWH12665.1&#8594AWH12664.1</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_89</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001830/'>BGC0001830</a></td>
+<td>rosamicin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/25930739'>25930739</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>spr7&#8594spr8&#8594spr9&#8594spr10&#8594spr11</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_90</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001784/'>BGC0001784</a></td>
+<td>streptoseomycin</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/29697266'>29697266</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>stmA&#8594stmB&#8594stmC</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_91</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001770/'>BGC0001770</a></td>
+<td>sceliphrolactam</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/29371699'>29371699</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>sceN&#8594sceO&#8594sceQ&#8594sceR&#8594sceS&#8594sceT</td>
+</tr>
+<tr data-status='published'>
+<td>BGC_92</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001433/'>BGC0001433</a></td>
+<td>argimycin pi</td>
+<td><a href='https://www.ncbi.nlm.nih.gov/pubmed/28239372'>28239372</a></td>
+<td><span class='label label-success'>Published</span></td>
+<td>arppI&#8594arppII&#8594arppIII</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_93</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001690/'>BGC0001690</a></td>
+<td>natamycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/27746324'>27746324</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">AQT01384.1&#8594AQT01382.1&#8594AQT01393.1&#8594AQT01394.1&#8594AQT01395.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_93">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_93" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AQT01384.1&#8594AQT01382.1&#8594AQT01393.1&#8594AQT01394.1&#8594AQT01395.1</td>
+<td>0.8276625664200334</td>
+<td>CC(=O)CC(O)C=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(O)CC(O)C=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AQT01382.1&#8594AQT01393.1&#8594AQT01394.1&#8594AQT01395.1&#8594AQT01384.1</td>
+<td>0.748860097137405</td>
+<td>CC(O)C=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(O)CC(O)C=CC=CCC(=O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>AQT01395.1&#8594AQT01384.1&#8594AQT01382.1&#8594AQT01393.1&#8594AQT01394.1</td>
+<td>0.7316348276447574</td>
+<td>C=CCC(=O)CC(O)C=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(O)CC(O)C=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>AQT01393.1&#8594AQT01394.1&#8594AQT01395.1&#8594AQT01384.1&#8594AQT01382.1</td>
+<td>0.7280924298019509</td>
+<td>C=CCC(O)C(C)C(O)CC(O)CC(O)CC(O)C=CC=CCC(=O)CC(O)C=CC=CC=C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>AQT01394.1&#8594AQT01395.1&#8594AQT01384.1&#8594AQT01382.1&#8594AQT01393.1</td>
+<td>0.6943201079179563</td>
+<td>C=CC=CCC(=O)CC(O)C=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>AQT01382.1&#8594AQT01384.1&#8594AQT01393.1&#8594AQT01394.1&#8594AQT01395.1</td>
+<td>0.6482692321935228</td>
+<td>CC(O)C=CC=CC=CCC(=O)C=CCC(O)C(C)C(O)CC(O)CC(O)CC(O)C=CC=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>AQT01384.1&#8594AQT01393.1&#8594AQT01394.1&#8594AQT01395.1&#8594AQT01382.1</td>
+<td>0.6181645858358173</td>
+<td>CC(=O)C=CCC(O)C(C)C(O)CC(O)CC(O)CC(O)C=CC=CCC(O)C=CC=CC=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>AQT01384.1&#8594AQT01395.1&#8594AQT01382.1&#8594AQT01393.1&#8594AQT01394.1</td>
+<td>0.6090733327657817</td>
+<td>CC(=O)C=CCC(O)C=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(O)CC(O)C=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>AQT01393.1&#8594AQT01394.1&#8594AQT01395.1&#8594AQT01382.1&#8594AQT01384.1</td>
+<td>0.5987981145386675</td>
+<td>C=CCC(O)C(C)C(O)CC(O)CC(O)CC(O)C=CC=CCC(O)C=CC=CC=CCC(=O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>AQT01382.1&#8594AQT01393.1&#8594AQT01394.1&#8594AQT01384.1&#8594AQT01395.1</td>
+<td>0.5948223822796841</td>
+<td>CC(O)C=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(O)CC(O)C=CCC(=O)C=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_94</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001504/'>BGC0001504</a></td>
+<td>amycomicin</td>
+<td>
+<a href='https://doi.org/10.1101/317362'>doi.org/10.1101/317362</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">CU254_21760&#8594CU254_21765&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_94">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_94" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>CU254_21760&#8594CU254_21765</td>
+<td>0.37367194428411404</td>
+<td>CC</td>
+</tr>
+<tr>
+<td>2</td>
+<td>CU254_21765&#8594CU254_21760</td>
+<td>0.35638267939250096</td>
+<td>CC</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_95</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001232/'>BGC0001232</a></td>
+<td>leucanicidin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/'></a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">BI06_RS39060&#8594BI06_RS39075&#8594BI06_RS39070&#8594BI06_RS39065&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_95">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_95" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>BI06_RS39060&#8594BI06_RS39075&#8594BI06_RS39070&#8594BI06_RS39065</td>
+<td>0.7446815290289797</td>
+<td>C(C)C(O)C(C)C(=O)CC(O)C=CC(CC)C(O)C(C)C(O)C(C)CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>BI06_RS39075&#8594BI06_RS39070&#8594BI06_RS39065&#8594BI06_RS39060</td>
+<td>0.7415807764592574</td>
+<td>C(C)C(=O)CC(O)C=CC(CC)C(O)C(C)C(O)C(C)CC([*])C(-O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>BI06_RS39070&#8594BI06_RS39065&#8594BI06_RS39075&#8594BI06_RS39060</td>
+<td>0.5637049164253034</td>
+<td>C=CC(CC)C(O)C(C)C(O)C(C)CC([*])C(-O)C(C)C(=O)CC(O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>BI06_RS39075&#8594BI06_RS39060&#8594BI06_RS39070&#8594BI06_RS39065</td>
+<td>0.5625061123994102</td>
+<td>C(C)C(=O)CC(O)C(C)C(O)C=CC(CC)C(O)C(C)C(O)C(C)CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>BI06_RS39070&#8594BI06_RS39065&#8594BI06_RS39060&#8594BI06_RS39075</td>
+<td>0.5484211068215222</td>
+<td>C=CC(CC)C(O)C(C)C(O)C(C)CC([*])C(-O)C(C)C(O)C(C)C(=O)CC(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>BI06_RS39065&#8594BI06_RS39060&#8594BI06_RS39075&#8594BI06_RS39070</td>
+<td>0.5353657670509674</td>
+<td>C(C)CC([*])C(-O)C(C)C(O)C(C)C(=O)CC(O)C=CC(CC)C(O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>BI06_RS39065&#8594BI06_RS39075&#8594BI06_RS39070&#8594BI06_RS39060</td>
+<td>0.5336787324983495</td>
+<td>C(C)CC([*])C(-O)C(C)C(=O)CC(O)C=CC(CC)C(O)C(C)C(O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>BI06_RS39060&#8594BI06_RS39070&#8594BI06_RS39065&#8594BI06_RS39075</td>
+<td>0.5064181799896118</td>
+<td>C(C)C(O)C=CC(CC)C(O)C(C)C(O)C(C)CC([*])C(-O)C(C)C(=O)CC(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>BI06_RS39075&#8594BI06_RS39070&#8594BI06_RS39060&#8594BI06_RS39065</td>
+<td>0.49003588476807186</td>
+<td>C(C)C(=O)CC(O)C=CC(CC)C(O)C(C)C(O)C(C)C(O)C(C)CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>BI06_RS39070&#8594BI06_RS39060&#8594BI06_RS39075&#8594BI06_RS39065</td>
+<td>0.45313165368716213</td>
+<td>C=CC(CC)C(O)C(C)C(O)C(C)C(O)C(C)C(=O)CC(O)C(C)CC([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_96</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001359/'>BGC0001359</a></td>
+<td>pm100117</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/26648119'>26648119</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">gonP1&#8594gonP2&#8594gonP3&#8594gonP4&#8594gonP5&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_96">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_96" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>gonP1&#8594gonP2&#8594gonP3&#8594gonP4&#8594gonP5</td>
+<td>0.9100754137182931</td>
+<td>C(C)C(=O)C([*])C(-O)C(C)C(O)C([*])C(-O)C([*])C(-O)C=CC=CCCCC(O)CCCC(O)CC(O)CC(O)CC(=O)C(C)C(O)CC</td>
+</tr>
+<tr>
+<td>2</td>
+<td>gonP2&#8594gonP3&#8594gonP4&#8594gonP5&#8594gonP1</td>
+<td>0.7943609201411856</td>
+<td>C([*])C(-O)C([*])C(-O)C=CC=CCCCC(O)CCCC(O)CC(O)CC(O)CC(=O)C(C)C(O)CCC(C)C(=O)C([*])C(-O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>gonP1&#8594gonP5&#8594gonP2&#8594gonP3&#8594gonP4</td>
+<td>0.7796052782944999</td>
+<td>C(C)C(=O)C([*])C(-O)C(C)C(O)CC(O)CC(O)CC(=O)C(C)C(O)CCC([*])C(-O)C([*])C(-O)C=CC=CCCCC(O)CCCC(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>gonP5&#8594gonP1&#8594gonP2&#8594gonP3&#8594gonP4</td>
+<td>0.7786442106826182</td>
+<td>CC(O)CC(O)CC(=O)C(C)C(O)CCC(C)C(=O)C([*])C(-O)C(C)C(O)C([*])C(-O)C([*])C(-O)C=CC=CCCCC(O)CCCC(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>gonP3&#8594gonP4&#8594gonP5&#8594gonP1&#8594gonP2</td>
+<td>0.7713111812363616</td>
+<td>C=CCCCC(O)CCCC(O)CC(O)CC(O)CC(=O)C(C)C(O)CCC(C)C(=O)C([*])C(-O)C(C)C(O)C([*])C(-O)C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>gonP4&#8594gonP5&#8594gonP1&#8594gonP2&#8594gonP3</td>
+<td>0.7668065981827052</td>
+<td>CC(O)CCCC(O)CC(O)CC(O)CC(=O)C(C)C(O)CCC(C)C(=O)C([*])C(-O)C(C)C(O)C([*])C(-O)C([*])C(-O)C=CC=CCC</td>
+</tr>
+<tr>
+<td>7</td>
+<td>gonP2&#8594gonP3&#8594gonP4&#8594gonP1&#8594gonP5</td>
+<td>0.7547311245245907</td>
+<td>C([*])C(-O)C([*])C(-O)C=CC=CCCCC(O)CCCC(O)C(C)C(=O)C([*])C(-O)C(C)C(O)CC(O)CC(O)CC(=O)C(C)C(O)CC</td>
+</tr>
+<tr>
+<td>8</td>
+<td>gonP1&#8594gonP5&#8594gonP3&#8594gonP4&#8594gonP2</td>
+<td>0.7281619634731182</td>
+<td>C(C)C(=O)C([*])C(-O)C(C)C(O)CC(O)CC(O)CC(=O)C(C)C(O)CCC=CCCCC(O)CCCC(O)C([*])C(-O)C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>gonP1&#8594gonP3&#8594gonP4&#8594gonP5&#8594gonP2</td>
+<td>0.708972060525247</td>
+<td>C(C)C(=O)C([*])C(-O)C(C)C(O)C=CCCCC(O)CCCC(O)CC(O)CC(O)CC(=O)C(C)C(O)CCC([*])C(-O)C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>10</td>
+<td>gonP4&#8594gonP2&#8594gonP3&#8594gonP1&#8594gonP5</td>
+<td>0.7049682321054063</td>
+<td>CC(O)CCCC(O)C([*])C(-O)C([*])C(-O)C=CC=CCCC(C)C(=O)C([*])C(-O)C(C)C(O)CC(O)CC(O)CC(=O)C(C)C(O)CC</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_97</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001237/'>BGC0001237</a></td>
+<td>thiolactomycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/'></a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">tlmG&#8594tlmH&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_97">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_97" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>tlmG&#8594tlmH</td>
+<td>0.4695913685162667</td>
+<td>C(C)=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>tlmH&#8594tlmG</td>
+<td>0.3523078260038841</td>
+<td>C(C)=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_98</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000074/'>BGC0000074</a></td>
+<td>herbimycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/16085885'>16085885</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">hbmAI&#8594hbmAII&#8594hbmAIII&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_98">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_98" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>hbmAI&#8594hbmAII&#8594hbmAIII</td>
+<td>0.7973789622875557</td>
+<td>C(C)CC(OC)CC(C)C(O)C(C)=CC(OC)C(O)CCC(C)=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>hbmAIII&#8594hbmAI&#8594hbmAII</td>
+<td>0.6967746165266812</td>
+<td>CCC(C)=CC(C)CC(OC)CC(C)C(O)C(C)=CC(OC)C(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>hbmAII&#8594hbmAIII&#8594hbmAI</td>
+<td>0.6829271622299176</td>
+<td>C(C)=CC(OC)C(O)CCC(C)=CC(C)CC(OC)CC(C)C(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>hbmAIII&#8594hbmAII&#8594hbmAI</td>
+<td>0.3955125349049342</td>
+<td>CCC(C)=CC(C)=CC(OC)C(O)C(C)CC(OC)CC(C)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>hbmAI&#8594hbmAIII&#8594hbmAII</td>
+<td>0.23071029457731046</td>
+<td>C(C)CC(OC)CC(C)C(O)CCC(C)=CC(C)=CC(OC)C(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>hbmAII&#8594hbmAI&#8594hbmAIII</td>
+<td>0.1875618388570232</td>
+<td>C(C)=CC(OC)C(O)C(C)CC(OC)CC(C)C(O)CCC(C)=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_99</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000163/'>BGC0000163</a></td>
+<td>tetronasin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/8449312'>8449312</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">tsnDII&#8594tsnDI&#8594tsnDIII&#8594tsnAI&#8594tsnAII&#8594tsnAIII&#8594tsnAIV&#8594tsnAV&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_99">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_99" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>tsnDII&#8594tsnDI&#8594tsnDIII&#8594tsnAI&#8594tsnAII&#8594tsnAIII&#8594tsnAIV&#8594tsnAV</td>
+<td>0.589202349307263</td>
+<td>CC(O)CCC(C)CC=CCC(=O)C(C)=CC=CCC(O)C(C)CC(C)=CC=CCCC(C)CC(C)=CCC(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>tsnDII&#8594tsnDI&#8594tsnAI&#8594tsnAII&#8594tsnAIII&#8594tsnAIV&#8594tsnAV&#8594tsnDIII</td>
+<td>0.5881401315699912</td>
+<td>CC(O)C(C)CC=CCC(=O)C(C)=CC=CCC(O)C(C)CC(C)=CC=CCCC(C)CC(C)=CCC(O)CC</td>
+</tr>
+<tr>
+<td>3</td>
+<td>tsnAIV&#8594tsnAV&#8594tsnDIII&#8594tsnAI&#8594tsnAII&#8594tsnAIII&#8594tsnDII&#8594tsnDI</td>
+<td>0.5801422497880735</td>
+<td>CCC(C)CC(C)=CCC(O)CCC(C)CC=CCC(=O)C(C)=CC=CCC(O)C(C)CC(C)=CC=CCC(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>tsnAIV&#8594tsnAV&#8594tsnAI&#8594tsnAII&#8594tsnAIII&#8594tsnDII&#8594tsnDI&#8594tsnDIII</td>
+<td>0.5750495373054193</td>
+<td>CCC(C)CC(C)=CCC(O)C(C)CC=CCC(=O)C(C)=CC=CCC(O)C(C)CC(C)=CC=CCC(O)CC</td>
+</tr>
+<tr>
+<td>5</td>
+<td>tsnDIII&#8594tsnAIV&#8594tsnAV&#8594tsnAI&#8594tsnAII&#8594tsnAIII&#8594tsnDII&#8594tsnDI</td>
+<td>0.5713323002418516</td>
+<td>CCCCC(C)CC(C)=CCC(O)C(C)CC=CCC(=O)C(C)=CC=CCC(O)C(C)CC(C)=CC=CCC(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>tsnDIII&#8594tsnDII&#8594tsnDI&#8594tsnAI&#8594tsnAII&#8594tsnAIII&#8594tsnAIV&#8594tsnAV</td>
+<td>0.5709220487790446</td>
+<td>CCCC(O)C(C)CC=CCC(=O)C(C)=CC=CCC(O)C(C)CC(C)=CC=CCCC(C)CC(C)=CCC(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>tsnDIII&#8594tsnAI&#8594tsnAII&#8594tsnAIII&#8594tsnAIV&#8594tsnAV&#8594tsnDII&#8594tsnDI</td>
+<td>0.5709163741345386</td>
+<td>CCC(C)CC=CCC(=O)C(C)=CC=CCC(O)C(C)CC(C)=CC=CCCC(C)CC(C)=CCC(O)CC(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>tsnAIV&#8594tsnAII&#8594tsnAIII&#8594tsnDII&#8594tsnDI&#8594tsnDIII&#8594tsnAI&#8594tsnAV</td>
+<td>0.5669261350256845</td>
+<td>CCC(C)CC(C)=CC(C)=CC=CCC(O)C(C)CC(C)=CC=CCC(O)CCC(C)CC=CCC(=O)CC(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>tsnAIV&#8594tsnAII&#8594tsnAIII&#8594tsnDII&#8594tsnDI&#8594tsnAI&#8594tsnAV&#8594tsnDIII</td>
+<td>0.5658639172884127</td>
+<td>CCC(C)CC(C)=CC(C)=CC=CCC(O)C(C)CC(C)=CC=CCC(O)C(C)CC=CCC(=O)CC(O)CC</td>
+</tr>
+<tr>
+<td>10</td>
+<td>tsnDII&#8594tsnDI&#8594tsnDIII&#8594tsnAIV&#8594tsnAV&#8594tsnAI&#8594tsnAII&#8594tsnAIII</td>
+<td>0.5642501055257632</td>
+<td>CC(O)CCCCC(C)CC(C)=CCC(O)C(C)CC=CCC(=O)C(C)=CC=CCC(O)C(C)CC(C)=CC=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_100</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001522/'>BGC0001522</a></td>
+<td>auroramycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/29799651'>29799651</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">AWR88410.1&#8594AWR88405.1&#8594AWR88404.1&#8594AWR88398.1&#8594AWR88399.1&#8594AWR88393.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_100">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_100" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AWR88410.1&#8594AWR88405.1&#8594AWR88404.1&#8594AWR88398.1&#8594AWR88399.1&#8594AWR88393.1</td>
+<td>0.6691022653615117</td>
+<td>C([*])C(-O)C(C)=CC=CC(C)=CC=CC=CC(C)C(O)C=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AWR88404.1&#8594AWR88398.1&#8594AWR88399.1&#8594AWR88393.1&#8594AWR88410.1&#8594AWR88405.1</td>
+<td>0.6431700254969235</td>
+<td>C(C)=CC=CC=CC(C)C(O)C=CC=CC=CC=CC([*])C(-O)C(C)=CC=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>AWR88405.1&#8594AWR88404.1&#8594AWR88398.1&#8594AWR88399.1&#8594AWR88393.1&#8594AWR88410.1</td>
+<td>0.6396564198242782</td>
+<td>C(C)=CC=CC(C)=CC=CC=CC(C)C(O)C=CC=CC=CC=CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>AWR88399.1&#8594AWR88393.1&#8594AWR88410.1&#8594AWR88405.1&#8594AWR88404.1&#8594AWR88398.1</td>
+<td>0.6351240140170512</td>
+<td>C=CC=CC=CC=CC([*])C(-O)C(C)=CC=CC(C)=CC=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>AWR88410.1&#8594AWR88405.1&#8594AWR88399.1&#8594AWR88393.1&#8594AWR88404.1&#8594AWR88398.1</td>
+<td>0.6312678085944938</td>
+<td>C([*])C(-O)C(C)=CC=CC=CC=CC=CC=CC(C)=CC=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>AWR88410.1&#8594AWR88405.1&#8594AWR88398.1&#8594AWR88404.1&#8594AWR88399.1&#8594AWR88393.1</td>
+<td>0.6290715379537942</td>
+<td>C([*])C(-O)C(C)=CC=CC(C)C(O)C(C)=CC=CC=CC=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>AWR88404.1&#8594AWR88399.1&#8594AWR88393.1&#8594AWR88410.1&#8594AWR88405.1&#8594AWR88398.1</td>
+<td>0.6288453483891259</td>
+<td>C(C)=CC=CC=CC=CC=CC=CC=CC([*])C(-O)C(C)=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>AWR88398.1&#8594AWR88399.1&#8594AWR88393.1&#8594AWR88410.1&#8594AWR88405.1&#8594AWR88404.1</td>
+<td>0.6112147780197384</td>
+<td>C(C)C(O)C=CC=CC=CC=CC([*])C(-O)C(C)=CC=CC(C)=CC=CC=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>AWR88410.1&#8594AWR88405.1&#8594AWR88404.1&#8594AWR88399.1&#8594AWR88393.1&#8594AWR88398.1</td>
+<td>0.6050536522356837</td>
+<td>C([*])C(-O)C(C)=CC=CC(C)=CC=CC=CC=CC=CC=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>AWR88410.1&#8594AWR88405.1&#8594AWR88398.1&#8594AWR88399.1&#8594AWR88393.1&#8594AWR88404.1</td>
+<td>0.6034361280700118</td>
+<td>C([*])C(-O)C(C)=CC=CC(C)C(O)C=CC=CC=CC=CC(C)=CC=CC=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_101</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000033/'>BGC0000033</a></td>
+<td>calicheamicin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/12183629'>12183629</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">calO5&#8594calE8&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_101">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_101" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>calO5&#8594calE8</td>
+<td>0.4976223658979195</td>
+<td>C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>calE8&#8594calO5</td>
+<td>0.3802439472303992</td>
+<td>C=CC([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_102</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000008/'>BGC0000008</a></td>
+<td>aflatoxin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/15528514'>15528514</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">AAS90022.1&#8594AAS90025.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_102">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_102" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AAS90022.1&#8594AAS90025.1</td>
+<td>0.6333060006879772</td>
+<td>CC(=O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AAS90025.1&#8594AAS90022.1</td>
+<td>0.4911878783300344</td>
+<td>C([*])C(-O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_103</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000002/'>BGC0000002</a></td>
+<td>aculeximycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/25301375'>25301375</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">acuAI&#8594acuAII&#8594acuAIII&#8594acuAIV&#8594acuAV&#8594acuAVI&#8594acuAVII&#8594acuAVIII&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_103">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_103" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>acuAI&#8594acuAII&#8594acuAIII&#8594acuAIV&#8594acuAV&#8594acuAVI&#8594acuAVII&#8594acuAVIII</td>
+<td>0.7230134535179832</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>acuAIV&#8594acuAIII&#8594acuAI&#8594acuAII&#8594acuAV&#8594acuAVI&#8594acuAVII&#8594acuAVIII</td>
+<td>0.6968345081033159</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>acuAII&#8594acuAIII&#8594acuAI&#8594acuAIV&#8594acuAV&#8594acuAVI&#8594acuAVII&#8594acuAVIII</td>
+<td>0.6890875742310391</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>acuAII&#8594acuAIII&#8594acuAIV&#8594acuAV&#8594acuAVI&#8594acuAVII&#8594acuAI&#8594acuAVIII</td>
+<td>0.6868421497652609</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>acuAIII&#8594acuAIV&#8594acuAI&#8594acuAII&#8594acuAV&#8594acuAVI&#8594acuAVII&#8594acuAVIII</td>
+<td>0.6850399319794848</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>acuAIV&#8594acuAV&#8594acuAVI&#8594acuAVII&#8594acuAII&#8594acuAIII&#8594acuAI&#8594acuAVIII</td>
+<td>0.6840470227350343</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>acuAI&#8594acuAII&#8594acuAV&#8594acuAVI&#8594acuAVII&#8594acuAVIII&#8594acuAIII&#8594acuAIV</td>
+<td>0.6819478966429644</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>acuAVIII&#8594acuAI&#8594acuAII&#8594acuAIII&#8594acuAIV&#8594acuAV&#8594acuAVI&#8594acuAVII</td>
+<td>0.6807694881950591</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>acuAIII&#8594acuAI&#8594acuAII&#8594acuAIV&#8594acuAV&#8594acuAVI&#8594acuAVII&#8594acuAVIII</td>
+<td>0.6773863639573648</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>acuAVI&#8594acuAVII&#8594acuAII&#8594acuAIII&#8594acuAIV&#8594acuAV&#8594acuAI&#8594acuAVIII</td>
+<td>0.6717864282418257</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_104</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000039/'>BGC0000039</a></td>
+<td>compactin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/18667169'>18667169</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/12436257'>12436257</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/12172803'>12172803</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/12242508'>12242508</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">mlcB&#8594mlcA&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_104">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_104" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>mlcB&#8594mlcA</td>
+<td>0.404601533186846</td>
+<td>CCC([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>mlcA&#8594mlcB</td>
+<td>0.32918113693322226</td>
+<td>C([*])C(-O)CC</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_105</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001404/'>BGC0001404</a></td>
+<td>sorbicillin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/27107123'>27107123</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">Pc21g05080&#8594Pc21g05070&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_105">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_105" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Pc21g05080&#8594Pc21g05070</td>
+<td>0.3335744618986304</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Pc21g05070&#8594Pc21g05080</td>
+<td>0.3177716094107777</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_106</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000045/'>BGC0000045</a></td>
+<td>dehydrocurvularin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/23335766'>23335766</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">curS1&#8594curS2&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_106">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_106" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>curS1&#8594curS2</td>
+<td>0.46211693777994106</td>
+<td>C([*])C(-O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>curS2&#8594curS1</td>
+<td>0.18317372021010064</td>
+<td>CC(=O)C([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_107</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000090/'>BGC0000090</a></td>
+<td>macbecin i</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/18800759'>18800759</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">mbcAI&#8594mbcAII&#8594mbcAIII&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_107">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_107" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>mbcAI&#8594mbcAII&#8594mbcAIII</td>
+<td>0.5901423569322392</td>
+<td>C(C)CC([*])C(-O)C(C)C(O)C(C)=CC(C)C(O)CCC(C)=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>mbcAIII&#8594mbcAI&#8594mbcAII</td>
+<td>0.4977326510558509</td>
+<td>CCC(C)=CC(C)CC([*])C(-O)C(C)C(O)C(C)=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>mbcAII&#8594mbcAIII&#8594mbcAI</td>
+<td>0.4761030851235722</td>
+<td>C(C)=CC(C)C(O)CCC(C)=CC(C)CC([*])C(-O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>mbcAIII&#8594mbcAII&#8594mbcAI</td>
+<td>0.3946580134761176</td>
+<td>CCC(C)=CC(C)=CC(C)C(O)C(C)CC([*])C(-O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>mbcAI&#8594mbcAIII&#8594mbcAII</td>
+<td>0.27518531649389</td>
+<td>C(C)CC([*])C(-O)C(C)C(O)CCC(C)=CC(C)=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>mbcAII&#8594mbcAI&#8594mbcAIII</td>
+<td>0.2374689671534837</td>
+<td>C(C)=CC(C)C(O)C(C)CC([*])C(-O)C(C)C(O)CCC(C)=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_108</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001819/'>BGC0001819</a></td>
+<td>venemycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/27605017'>27605017</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">vnz_RS02325&#8594vnz_RS02320&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_108">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_108" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>vnz_RS02325&#8594vnz_RS02320</td>
+<td>0.5768229092607281</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>vnz_RS02320&#8594vnz_RS02325</td>
+<td>0.49198005498858133</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_109</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000110/'>BGC0000110</a></td>
+<td>neoaureothin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/17763486'>17763486</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/19651421'>19651421</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/24402879'>24402879</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/11897600'>11897600</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/5593974'>5593974</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/11560371'>11560371</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/20094652'>20094652</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/23968564'>23968564</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">norA&#8594norA_&#8594norB&#8594norC&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_109">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_109" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>norA&#8594norA_&#8594norB&#8594norC</td>
+<td>0.7511098191511406</td>
+<td>C(C)=CC(C)=CC(C)=CCCC([*])C(-O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>norA_&#8594norB&#8594norC&#8594norA</td>
+<td>0.6722276409478183</td>
+<td>C(C)=CC(C)=CCCC([*])C(-O)CC(=O)C(C)=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>norB&#8594norC&#8594norA&#8594norA_</td>
+<td>0.6583376738978282</td>
+<td>CCC([*])C(-O)CC(=O)C(C)=CC(C)=CC(C)=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>norC&#8594norA&#8594norA_&#8594norB</td>
+<td>0.6339093975700605</td>
+<td>C([*])C(-O)CC(=O)C(C)=CC(C)=CC(C)=CCC</td>
+</tr>
+<tr>
+<td>5</td>
+<td>norA_&#8594norA&#8594norB&#8594norC</td>
+<td>0.5196765783008872</td>
+<td>C(C)=CC(C)=CC(C)=CCCC([*])C(-O)CC(=O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>norA&#8594norB&#8594norC&#8594norA_</td>
+<td>0.49945979327426526</td>
+<td>C(C)=CCCC([*])C(-O)CC(=O)C(C)=CC(C)=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>norB&#8594norC&#8594norA_&#8594norA</td>
+<td>0.4819349329183258</td>
+<td>CCC([*])C(-O)CC(=O)C(C)=CC(C)=CC(C)=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>norC&#8594norB&#8594norA&#8594norA_</td>
+<td>0.4776571068040838</td>
+<td>C([*])C(-O)CC(=O)CCC(C)=CC(C)=CC(C)=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>norA&#8594norA_&#8594norC&#8594norB</td>
+<td>0.455123656101918</td>
+<td>C(C)=CC(C)=CC(C)=CC([*])C(-O)CC(=O)CC</td>
+</tr>
+<tr>
+<td>10</td>
+<td>norA_&#8594norB&#8594norA&#8594norC</td>
+<td>0.449374249471062</td>
+<td>C(C)=CC(C)=CCCC(C)=CC([*])C(-O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_110</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000108/'>BGC0000108</a></td>
+<td>natamycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/21330439'>21330439</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">scnS0&#8594scnS1&#8594scnS2&#8594scnS3&#8594scnS4&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_110">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_110" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>scnS0&#8594scnS1&#8594scnS2&#8594scnS3&#8594scnS4</td>
+<td>0.7983346723624316</td>
+<td>CC(=O)C=CC=CC=CCC(O)CC(O)CC(O)CC(O)C(C)C(O)CC(O)C=CC=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>scnS1&#8594scnS2&#8594scnS3&#8594scnS4&#8594scnS0</td>
+<td>0.7373011181785286</td>
+<td>C=CC=CC=CCC(O)CC(O)CC(O)CC(O)C(C)C(O)CC(O)C=CC=CC=CCC(=O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>scnS4&#8594scnS0&#8594scnS1&#8594scnS2&#8594scnS3</td>
+<td>0.6989750130865269</td>
+<td>C=CCC(=O)C=CC=CC=CCC(O)CC(O)CC(O)CC(O)C(C)C(O)CC(O)C=CC=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>scnS2&#8594scnS3&#8594scnS4&#8594scnS0&#8594scnS1</td>
+<td>0.6908889275894305</td>
+<td>CC(O)CC(O)CC(O)C(C)C(O)CC(O)C=CC=CC=CCC(=O)C=CC=CC=CCC(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>scnS3&#8594scnS4&#8594scnS0&#8594scnS1&#8594scnS2</td>
+<td>0.6668562888551035</td>
+<td>C=CC=CCC(=O)C=CC=CC=CCC(O)CC(O)CC(O)CC(O)C(C)C(O)CC(O)C=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>scnS1&#8594scnS2&#8594scnS3&#8594scnS0&#8594scnS4</td>
+<td>0.6527791671527227</td>
+<td>C=CC=CC=CCC(O)CC(O)CC(O)CC(O)C(C)C(O)CC(O)C=CC=CCC(=O)C=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>scnS1&#8594scnS0&#8594scnS2&#8594scnS3&#8594scnS4</td>
+<td>0.6334986564721823</td>
+<td>C=CC=CC=CCC(O)CC(=O)CC(O)CC(O)CC(O)C(C)C(O)CC(O)C=CC=CC=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>scnS4&#8594scnS1&#8594scnS2&#8594scnS3&#8594scnS0</td>
+<td>0.6171729713375105</td>
+<td>C=CC=CC=CC=CCC(O)CC(O)CC(O)CC(O)C(C)C(O)CC(O)C=CC=CCC(=O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>scnS0&#8594scnS4&#8594scnS1&#8594scnS2&#8594scnS3</td>
+<td>0.6163077447937967</td>
+<td>CC(=O)C=CC=CC=CC=CCC(O)CC(O)CC(O)CC(O)C(C)C(O)CC(O)C=CC=C</td>
+</tr>
+<tr>
+<td>10</td>
+<td>scnS0&#8594scnS2&#8594scnS3&#8594scnS4&#8594scnS1</td>
+<td>0.6076279134610824</td>
+<td>CC(=O)CC(O)CC(O)CC(O)C(C)C(O)CC(O)C=CC=CC=CC=CC=CC=CCC(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_111</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000007/'>BGC0000007</a></td>
+<td>aflatoxin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/12382060'>12382060</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">AAS89999.1&#8594AAS90002.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_111">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_111" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AAS89999.1&#8594AAS90002.1</td>
+<td>0.632931691250687</td>
+<td>CC(=O)C([*])C(-O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AAS90002.1&#8594AAS89999.1</td>
+<td>0.5225589538201798</td>
+<td>C([*])C(-O)C([*])C(-O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_112</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000022/'>BGC0000022</a></td>
+<td>asperfuranone</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/19199437'>19199437</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">AN1036.2&#8594AN1034.2&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_112">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_112" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AN1036.2&#8594AN1034.2</td>
+<td>0.4695265842421604</td>
+<td>C([*])C(-O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AN1034.2&#8594AN1036.2</td>
+<td>0.2998661759579616</td>
+<td>CC(=O)C([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_113</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000096/'>BGC0000096</a></td>
+<td>midecamycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/'></a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ctg1_orf27&#8594ctg1_orf28&#8594ctg1_orf29&#8594ctg1_orf30&#8594ctg1_orf31&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_113">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_113" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ctg1_orf27&#8594ctg1_orf28&#8594ctg1_orf29&#8594ctg1_orf30&#8594ctg1_orf31</td>
+<td>0.6606676510590401</td>
+<td>CC(=O)CC(O)C=CC=CC(C)C(O)C(CC)CC(OC)C(O)CC(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ctg1_orf30&#8594ctg1_orf31&#8594ctg1_orf27&#8594ctg1_orf28&#8594ctg1_orf29</td>
+<td>0.62429816299045</td>
+<td>C(OC)C(O)CC(O)CC(=O)CC(O)C=CC=CC(C)C(O)C(CC)C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>ctg1_orf27&#8594ctg1_orf29&#8594ctg1_orf28&#8594ctg1_orf30&#8594ctg1_orf31</td>
+<td>0.5937615093975277</td>
+<td>CC(=O)CC(O)C=CC(C)C(O)C(CC)CC=CC(OC)C(O)CC(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ctg1_orf31&#8594ctg1_orf27&#8594ctg1_orf28&#8594ctg1_orf29&#8594ctg1_orf30</td>
+<td>0.5895526941914336</td>
+<td>CC(O)CC(=O)CC(O)C=CC=CC(C)C(O)C(CC)CC(OC)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>ctg1_orf30&#8594ctg1_orf27&#8594ctg1_orf28&#8594ctg1_orf29&#8594ctg1_orf31</td>
+<td>0.5803179615436197</td>
+<td>C(OC)C(O)CC(=O)CC(O)C=CC=CC(C)C(O)C(CC)CCC(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>ctg1_orf31&#8594ctg1_orf30&#8594ctg1_orf27&#8594ctg1_orf28&#8594ctg1_orf29</td>
+<td>0.5749641141533417</td>
+<td>CC(O)C(OC)C(O)CC(=O)CC(O)C=CC=CC(C)C(O)C(CC)C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>ctg1_orf29&#8594ctg1_orf30&#8594ctg1_orf31&#8594ctg1_orf27&#8594ctg1_orf28</td>
+<td>0.5679466161904179</td>
+<td>C(C)C(O)C(CC)CC(OC)C(O)CC(O)CC(=O)CC(O)C=CC=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>ctg1_orf28&#8594ctg1_orf29&#8594ctg1_orf30&#8594ctg1_orf31&#8594ctg1_orf27</td>
+<td>0.5678383126402627</td>
+<td>C=CC(C)C(O)C(CC)CC(OC)C(O)CC(O)CC(=O)CC(O)C=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>ctg1_orf28&#8594ctg1_orf29&#8594ctg1_orf27&#8594ctg1_orf30&#8594ctg1_orf31</td>
+<td>0.5658172301046328</td>
+<td>C=CC(C)C(O)C(CC)CCC(=O)CC(O)C=CC(OC)C(O)CC(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>ctg1_orf30&#8594ctg1_orf31&#8594ctg1_orf27&#8594ctg1_orf29&#8594ctg1_orf28</td>
+<td>0.5608004626729081</td>
+<td>C(OC)C(O)CC(O)CC(=O)CC(O)C=CC(C)C(O)C(CC)CC=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_114</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001350/'>BGC0001350</a></td>
+<td>phormidolide</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/26769357'>26769357</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">phmH&#8594phmD&#8594phmC&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_114">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_114" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>phmH&#8594phmD&#8594phmC</td>
+<td>0.4906105933538669</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>phmD&#8594phmC&#8594phmH</td>
+<td>0.47721202784404837</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>phmD&#8594phmH&#8594phmC</td>
+<td>0.4261265137675719</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>phmC&#8594phmD&#8594phmH</td>
+<td>0.4178115525125039</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>phmH&#8594phmC&#8594phmD</td>
+<td>0.4074562637127237</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>phmC&#8594phmH&#8594phmD</td>
+<td>0.3993597285549399</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_115</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001348/'>BGC0001348</a></td>
+<td>jbir-100</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/27234886'>27234886</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/20808316'>20808316</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">IF55_RS32385&#8594IF55_RS32430&#8594IF55_RS32365&#8594IF55_RS32370&#8594IF55_RS32375&#8594IF55_RS36525&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_115">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_115" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>IF55_RS32385&#8594IF55_RS32430&#8594IF55_RS32365&#8594IF55_RS32370&#8594IF55_RS32375&#8594IF55_RS36525</td>
+<td>0.6181726108738582</td>
+<td>C([*])C(-O)C(OC)C(=O)C(C)C(O)CC(O)C(C)C(=O)C(C)C(O)C(CC)C(O)C=CC([*])C(-O)C([*])C(-O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>IF55_RS32370&#8594IF55_RS32375&#8594IF55_RS36525&#8594IF55_RS32430&#8594IF55_RS32365&#8594IF55_RS32385</td>
+<td>0.5955946816584398</td>
+<td>C(C)C(O)C(CC)C(O)C=CC([*])C(-O)C([*])C(-O)C(C)C(O)C(OC)C(=O)C(C)C(O)CC(O)C(C)C(=O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>IF55_RS32430&#8594IF55_RS32365&#8594IF55_RS32370&#8594IF55_RS32375&#8594IF55_RS36525&#8594IF55_RS32385</td>
+<td>0.5897157480316051</td>
+<td>C(OC)C(=O)C(C)C(O)CC(O)C(C)C(=O)C(C)C(O)C(CC)C(O)C=CC([*])C(-O)C([*])C(-O)C(C)C(O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>IF55_RS32375&#8594IF55_RS36525&#8594IF55_RS32430&#8594IF55_RS32365&#8594IF55_RS32370&#8594IF55_RS32385</td>
+<td>0.572159120255491</td>
+<td>C([*])C(-O)C([*])C(-O)C(C)C(O)C(OC)C(=O)C(C)C(O)CC(O)C(C)C(=O)C(C)C(O)C(CC)C(O)C=CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>IF55_RS32430&#8594IF55_RS32365&#8594IF55_RS32385&#8594IF55_RS32370&#8594IF55_RS32375&#8594IF55_RS36525</td>
+<td>0.5690632876521153</td>
+<td>C(OC)C(=O)C(C)C(O)CC(O)C(C)C(=O)C([*])C(-O)C(C)C(O)C(CC)C(O)C=CC([*])C(-O)C([*])C(-O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>IF55_RS36525&#8594IF55_RS32385&#8594IF55_RS32430&#8594IF55_RS32365&#8594IF55_RS32370&#8594IF55_RS32375</td>
+<td>0.5644767292971431</td>
+<td>C(C)C(O)C([*])C(-O)C(OC)C(=O)C(C)C(O)CC(O)C(C)C(=O)C(C)C(O)C(CC)C(O)C=CC([*])C(-O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>IF55_RS36525&#8594IF55_RS32430&#8594IF55_RS32365&#8594IF55_RS32370&#8594IF55_RS32375&#8594IF55_RS32385</td>
+<td>0.5624925939804502</td>
+<td>C(C)C(O)C(OC)C(=O)C(C)C(O)CC(O)C(C)C(=O)C(C)C(O)C(CC)C(O)C=CC([*])C(-O)C([*])C(-O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>IF55_RS32370&#8594IF55_RS32385&#8594IF55_RS32430&#8594IF55_RS32365&#8594IF55_RS32375&#8594IF55_RS36525</td>
+<td>0.5623456032023755</td>
+<td>C(C)C(O)C(CC)C(O)C=CC([*])C(-O)C(OC)C(=O)C(C)C(O)CC(O)C(C)C(=O)C([*])C(-O)C([*])C(-O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>IF55_RS32385&#8594IF55_RS32365&#8594IF55_RS32370&#8594IF55_RS32375&#8594IF55_RS36525&#8594IF55_RS32430</td>
+<td>0.5584353820855659</td>
+<td>C([*])C(-O)C(C)C(O)CC(O)C(C)C(=O)C(C)C(O)C(CC)C(O)C=CC([*])C(-O)C([*])C(-O)C(C)C(O)C(OC)C(=O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>IF55_RS32375&#8594IF55_RS36525&#8594IF55_RS32385&#8594IF55_RS32430&#8594IF55_RS32365&#8594IF55_RS32370</td>
+<td>0.5506103251237524</td>
+<td>C([*])C(-O)C([*])C(-O)C(C)C(O)C([*])C(-O)C(OC)C(=O)C(C)C(O)CC(O)C(C)C(=O)C(C)C(O)C(CC)C(O)C=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_116</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000004/'>BGC0000004</a></td>
+<td>aflatoxin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/16391082'>16391082</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">pksA&#8594fas-1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_116">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_116" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>pksA&#8594fas-1</td>
+<td>0.4642577906820534</td>
+<td>CC(=O)C([*])C(-O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>fas-1&#8594pksA</td>
+<td>0.4169110040799663</td>
+<td>C([*])C(-O)C([*])C(-O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_117</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000128/'>BGC0000128</a></td>
+<td>pyoluteorin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/15033239'>15033239</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">pltC&#8594pltB&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_117">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_117" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>pltC&#8594pltB</td>
+<td>0.38591771780765166</td>
+<td>CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>pltB&#8594pltC</td>
+<td>0.33433042508298394</td>
+<td>CC(O)CC(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_118</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000130/'>BGC0000130</a></td>
+<td>pyrrolomycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/17158935'>17158935</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">pyr24&#8594pyr25&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_118">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_118" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>pyr24&#8594pyr25</td>
+<td>0.46419875200700517</td>
+<td>C=CCC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>pyr25&#8594pyr24</td>
+<td>0.4630406804501638</td>
+<td>CC(=O)C=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_119</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000049/'>BGC0000049</a></td>
+<td>e-492</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/16724457'>16724457</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ABB88533.1&#8594ABB88534.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_119">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_119" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ABB88533.1&#8594ABB88534.1</td>
+<td>0.8833841975183162</td>
+<td>CC(=O)C(C)=CC(C)C(O)C=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ABB88534.1&#8594ABB88533.1</td>
+<td>0.41572339201146885</td>
+<td>C=CC=CCC(=O)C(C)=CC(C)C(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_120</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000072/'>BGC0000072</a></td>
+<td>gulmirecin a</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/25287056'>25287056</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">gulA&#8594gulD&#8594gulF&#8594gulE&#8594gulB&#8594gulC&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_120">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_120" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>gulA&#8594gulD&#8594gulF&#8594gulE&#8594gulB&#8594gulC</td>
+<td>0.5147424756244008</td>
+<td>C(C)C(=O)C(C)=CCC(O)C(C)CC([*])C(-O)CC(O)C(C)=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>gulC&#8594gulE&#8594gulB&#8594gulD&#8594gulF&#8594gulA</td>
+<td>0.5057691465141592</td>
+<td>C(C)=CC([*])C(-O)CC(O)CC(O)C(C)CC(C)C(=O)C(C)=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>gulC&#8594gulF&#8594gulA&#8594gulD&#8594gulE&#8594gulB</td>
+<td>0.5039955558924792</td>
+<td>C(C)=CC(C)CC(C)C(=O)C(C)=CCC(O)C([*])C(-O)CC(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>gulA&#8594gulD&#8594gulE&#8594gulB&#8594gulC&#8594gulF</td>
+<td>0.5037479582283038</td>
+<td>C(C)C(=O)C(C)=CCC(O)C([*])C(-O)CC(O)C(C)=CC(C)C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>gulE&#8594gulB&#8594gulC&#8594gulF&#8594gulA&#8594gulD</td>
+<td>0.5016694091158179</td>
+<td>C([*])C(-O)CC(O)C(C)=CC(C)CC(C)C(=O)C(C)=CCC(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>gulC&#8594gulA&#8594gulD&#8594gulF&#8594gulE&#8594gulB</td>
+<td>0.50126038637625</td>
+<td>C(C)=CC(C)C(=O)C(C)=CCC(O)C(C)CC([*])C(-O)CC(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>gulA&#8594gulB&#8594gulD&#8594gulF&#8594gulE&#8594gulC</td>
+<td>0.4993133864743897</td>
+<td>C(C)C(=O)C(C)=CCC(O)CC(O)C(C)CC([*])C(-O)C(C)=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>gulC&#8594gulE&#8594gulB&#8594gulA&#8594gulD&#8594gulF</td>
+<td>0.4990969340538392</td>
+<td>C(C)=CC([*])C(-O)CC(O)C(C)C(=O)C(C)=CCC(O)C(C)C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>gulA&#8594gulD&#8594gulC&#8594gulF&#8594gulE&#8594gulB</td>
+<td>0.4966641455778249</td>
+<td>C(C)C(=O)C(C)=CCC(O)C(C)=CC(C)CC([*])C(-O)CC(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>gulE&#8594gulB&#8594gulC&#8594gulA&#8594gulD&#8594gulF</td>
+<td>0.4964936484669937</td>
+<td>C([*])C(-O)CC(O)C(C)=CC(C)C(=O)C(C)=CCC(O)C(C)C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_121</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000084/'>BGC0000084</a></td>
+<td>laidlomycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/17342048'>17342048</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ladSI&#8594ladSV&#8594ladSVI&#8594ladSVII&#8594ladSVIII&#8594ladSIV&#8594ladSII&#8594ladSIII&#8594ladA&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_121">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_121" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ladSI&#8594ladSV&#8594ladSVI&#8594ladSVII&#8594ladSVIII&#8594ladSIV&#8594ladSII&#8594ladSIII&#8594ladA</td>
+<td>0.7580506512414782</td>
+<td>CC(=O)C(C)C(=O)C(C)=CCCCC(O)C(C)C(O)C(C)=CC(C)C(O)C(C)=CCCC(C)CC=CC(C)C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ladSI&#8594ladSII&#8594ladSIII&#8594ladSIV&#8594ladSV&#8594ladSVI&#8594ladSVII&#8594ladSVIII&#8594ladA</td>
+<td>0.7579082967953912</td>
+<td>CC(=O)C(C)C(=O)C(C)CC=CC(C)CC(C)=CCCC(C)=CCCCC(O)C(C)C(O)C(C)=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>ladSI&#8594ladSII&#8594ladSV&#8594ladSVI&#8594ladSVII&#8594ladSVIII&#8594ladSIV&#8594ladSIII&#8594ladA</td>
+<td>0.7511831597271694</td>
+<td>CC(=O)C(C)C(=O)C(C)CC(C)=CCCCC(O)C(C)C(O)C(C)=CC(C)C(O)C(C)=CCCC=CC(C)C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ladSIV&#8594ladSV&#8594ladSVI&#8594ladSVII&#8594ladSVIII&#8594ladA&#8594ladSI&#8594ladSII&#8594ladSIII</td>
+<td>0.7371876530369162</td>
+<td>C(C)=CCCC(C)=CCCCC(O)C(C)C(O)C(C)=CC(C)C(O)CC(=O)C(C)C(=O)C(C)CC=CC(C)C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>ladSI&#8594ladSII&#8594ladSIII&#8594ladSVIII&#8594ladSIV&#8594ladSV&#8594ladSVI&#8594ladSVII&#8594ladA</td>
+<td>0.7332162350901997</td>
+<td>CC(=O)C(C)C(=O)C(C)CC=CC(C)CC(C)=CC(C)C(O)C(C)=CCCC(C)=CCCCC(O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>ladSIV&#8594ladSII&#8594ladSIII&#8594ladA&#8594ladSI&#8594ladSV&#8594ladSVI&#8594ladSVII&#8594ladSVIII</td>
+<td>0.7308350634689548</td>
+<td>C(C)=CCCC(C)CC=CC(C)CCC(=O)C(C)C(=O)C(C)=CCCCC(O)C(C)C(O)C(C)=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>ladSI&#8594ladSV&#8594ladSIV&#8594ladSII&#8594ladSIII&#8594ladSVI&#8594ladSVII&#8594ladSVIII&#8594ladA</td>
+<td>0.7304908208122358</td>
+<td>CC(=O)C(C)C(=O)C(C)=CCCC(C)=CCCC(C)CC=CC(C)CCC(O)C(C)C(O)C(C)=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>ladSIV&#8594ladSV&#8594ladSVI&#8594ladSVII&#8594ladSVIII&#8594ladSIII&#8594ladA&#8594ladSI&#8594ladSII</td>
+<td>0.7292801813824789</td>
+<td>C(C)=CCCC(C)=CCCCC(O)C(C)C(O)C(C)=CC(C)C(O)C=CC(C)CCC(=O)C(C)C(=O)C(C)C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>ladSIV&#8594ladSV&#8594ladSVI&#8594ladSVII&#8594ladSVIII&#8594ladSI&#8594ladSII&#8594ladSIII&#8594ladA</td>
+<td>0.7278100965462508</td>
+<td>C(C)=CCCC(C)=CCCCC(O)C(C)C(O)C(C)=CC(C)C(O)CC(=O)C(C)C(=O)C(C)CC=CC(C)C</td>
+</tr>
+<tr>
+<td>10</td>
+<td>ladSI&#8594ladSII&#8594ladSIV&#8594ladSV&#8594ladSVI&#8594ladSVII&#8594ladSVIII&#8594ladSIII&#8594ladA</td>
+<td>0.7275508321201022</td>
+<td>CC(=O)C(C)C(=O)C(C)CC(C)=CCCC(C)=CCCCC(O)C(C)C(O)C(C)=CC(C)C(O)C=CC(C)C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_122</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001619/'>BGC0001619</a></td>
+<td>ibomycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/27746129'>27746129</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">AKA59090.1&#8594AKA59092.1&#8594AKA59093.1&#8594AKA59088.1&#8594AKA59089.1&#8594AKA59091.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_122">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_122" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AKA59090.1&#8594AKA59092.1&#8594AKA59093.1&#8594AKA59088.1&#8594AKA59089.1&#8594AKA59091.1</td>
+<td>0.600433080473741</td>
+<td>C(C)C(O)CC(O)C(C)C(O)CC(O)CC(O)CC(O)C=CC=CC(C)C(=O)C([*])C(-O)C(C)C(O)C(C)C(O)C(C)C(O)C=CCC(O)CC(=O)C(C)C(O)CC</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AKA59090.1&#8594AKA59088.1&#8594AKA59089.1&#8594AKA59091.1&#8594AKA59093.1&#8594AKA59092.1</td>
+<td>0.6000795955299083</td>
+<td>C(C)C(O)CC(O)C(C)C(O)C(C)C(=O)C([*])C(-O)C(C)C(O)C(C)C(O)C(C)C(O)C=CCC(O)CC(=O)C(C)C(O)CCC=CC=CCC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>AKA59090.1&#8594AKA59088.1&#8594AKA59092.1&#8594AKA59089.1&#8594AKA59091.1&#8594AKA59093.1</td>
+<td>0.5917786286933238</td>
+<td>C(C)C(O)CC(O)C(C)C(O)C(C)C(=O)C([*])C(-O)C(C)C(O)CC(O)CC(O)CC(O)C(C)C(O)C(C)C(O)C=CCC(O)CC(=O)C(C)C(O)CCC=CC=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>AKA59090.1&#8594AKA59088.1&#8594AKA59089.1&#8594AKA59091.1&#8594AKA59092.1&#8594AKA59093.1</td>
+<td>0.590047902183189</td>
+<td>C(C)C(O)CC(O)C(C)C(O)C(C)C(=O)C([*])C(-O)C(C)C(O)C(C)C(O)C(C)C(O)C=CCC(O)CC(=O)C(C)C(O)CCCC(O)CC(O)CC(O)C=CC=C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>AKA59090.1&#8594AKA59092.1&#8594AKA59089.1&#8594AKA59091.1&#8594AKA59093.1&#8594AKA59088.1</td>
+<td>0.5869316580353154</td>
+<td>C(C)C(O)CC(O)C(C)C(O)CC(O)CC(O)CC(O)C(C)C(O)C(C)C(O)C=CCC(O)CC(=O)C(C)C(O)CCC=CC=CC(C)C(=O)C([*])C(-O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>AKA59090.1&#8594AKA59092.1&#8594AKA59089.1&#8594AKA59093.1&#8594AKA59088.1&#8594AKA59091.1</td>
+<td>0.5861843089320434</td>
+<td>C(C)C(O)CC(O)C(C)C(O)CC(O)CC(O)CC(O)C(C)C(O)C(C)C(O)C=CC=CC=CC(C)C(=O)C([*])C(-O)C(C)C(O)CC(O)CC(=O)C(C)C(O)CC</td>
+</tr>
+<tr>
+<td>7</td>
+<td>AKA59090.1&#8594AKA59091.1&#8594AKA59088.1&#8594AKA59089.1&#8594AKA59093.1&#8594AKA59092.1</td>
+<td>0.5840559040356303</td>
+<td>C(C)C(O)CC(O)C(C)C(O)CC(O)CC(=O)C(C)C(O)CCC(C)C(=O)C([*])C(-O)C(C)C(O)C(C)C(O)C(C)C(O)C=CC=CC=CCC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>AKA59092.1&#8594AKA59093.1&#8594AKA59090.1&#8594AKA59088.1&#8594AKA59089.1&#8594AKA59091.1</td>
+<td>0.5828099162329885</td>
+<td>CC(O)CC(O)CC(O)C=CC=CC(C)C(O)CC(O)C(C)C(O)C(C)C(=O)C([*])C(-O)C(C)C(O)C(C)C(O)C(C)C(O)C=CCC(O)CC(=O)C(C)C(O)CC</td>
+</tr>
+<tr>
+<td>9</td>
+<td>AKA59090.1&#8594AKA59088.1&#8594AKA59091.1&#8594AKA59089.1&#8594AKA59093.1&#8594AKA59092.1</td>
+<td>0.5823545564377017</td>
+<td>C(C)C(O)CC(O)C(C)C(O)C(C)C(=O)C([*])C(-O)C(C)C(O)CC(O)CC(=O)C(C)C(O)CCC(C)C(O)C(C)C(O)C=CC=CC=CCC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>AKA59088.1&#8594AKA59092.1&#8594AKA59089.1&#8594AKA59091.1&#8594AKA59093.1&#8594AKA59090.1</td>
+<td>0.5821538909441858</td>
+<td>C(C)C(=O)C([*])C(-O)C(C)C(O)CC(O)CC(O)CC(O)C(C)C(O)C(C)C(O)C=CCC(O)CC(=O)C(C)C(O)CCC=CC=CC(C)C(O)CC(O)C(C)C(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_123</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001183/'>BGC0001183</a></td>
+<td>lobophorin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/'></a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">AGC09484.1&#8594AGC09486.1&#8594AGC09499.1&#8594AGC09472.1&#8594AGC09487.1&#8594AGC09485.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_123">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_123" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AGC09484.1&#8594AGC09486.1&#8594AGC09499.1&#8594AGC09472.1&#8594AGC09487.1&#8594AGC09485.1</td>
+<td>0.4897124970196754</td>
+<td>C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CC(C)=CC([*])C(-O)C(C)=CCC(O)C(C)=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AGC09485.1&#8594AGC09472.1&#8594AGC09487.1&#8594AGC09484.1&#8594AGC09486.1&#8594AGC09499.1</td>
+<td>0.48313525186912837</td>
+<td>C(C)=CC=CC=CC=CCC(O)C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CC(C)=CC([*])C(-O)C(C)=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>AGC09484.1&#8594AGC09487.1&#8594AGC09486.1&#8594AGC09499.1&#8594AGC09472.1&#8594AGC09485.1</td>
+<td>0.47909326767523164</td>
+<td>C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CCC(O)C(C)=CC([*])C(-O)C(C)=CC(C)=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>AGC09484.1&#8594AGC09486.1&#8594AGC09499.1&#8594AGC09485.1&#8594AGC09472.1&#8594AGC09487.1</td>
+<td>0.47899610603679726</td>
+<td>C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CC(C)=CC([*])C(-O)C(C)=CC(C)=CC=CC=CC=CCC(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>AGC09484.1&#8594AGC09487.1&#8594AGC09486.1&#8594AGC09499.1&#8594AGC09485.1&#8594AGC09472.1</td>
+<td>0.47617067230324484</td>
+<td>C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CCC(O)C(C)=CC([*])C(-O)C(C)=CC(C)=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>AGC09484.1&#8594AGC09487.1&#8594AGC09485.1&#8594AGC09472.1&#8594AGC09486.1&#8594AGC09499.1</td>
+<td>0.4751423903609825</td>
+<td>C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CCC(O)C(C)=CC=CC=CC=CC(C)=CC([*])C(-O)C(C)=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>AGC09487.1&#8594AGC09484.1&#8594AGC09486.1&#8594AGC09499.1&#8594AGC09472.1&#8594AGC09485.1</td>
+<td>0.47509332287159467</td>
+<td>CC(O)C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CC(C)=CC([*])C(-O)C(C)=CC(C)=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>AGC09486.1&#8594AGC09499.1&#8594AGC09485.1&#8594AGC09472.1&#8594AGC09487.1&#8594AGC09484.1</td>
+<td>0.47269775413164467</td>
+<td>C(C)=CC([*])C(-O)C(C)=CC(C)=CC=CC=CC=CCC(O)C([*])C(-O)C(C)=CC([*])C(-O)C(C)=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>AGC09472.1&#8594AGC09487.1&#8594AGC09484.1&#8594AGC09486.1&#8594AGC09499.1&#8594AGC09485.1</td>
+<td>0.4723216475403077</td>
+<td>CC(O)C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CC(C)=CC([*])C(-O)C(C)=CC(C)=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>10</td>
+<td>AGC09487.1&#8594AGC09484.1&#8594AGC09486.1&#8594AGC09499.1&#8594AGC09485.1&#8594AGC09472.1</td>
+<td>0.472170727499608</td>
+<td>CC(O)C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CC(C)=CC([*])C(-O)C(C)=CC(C)=CC=CC=CC=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_124</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001452/'>BGC0001452</a></td>
+<td>sipanmycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/PMC5797532'>PMC5797532</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">sipL2&#8594sipP1&#8594sipP2&#8594sipP4&#8594sipP3&#8594sipP5&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_124">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_124" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>sipL2&#8594sipP1&#8594sipP2&#8594sipP4&#8594sipP3&#8594sipP5</td>
+<td>0.6624248428267717</td>
+<td>C([*])C(-O)C(C)=CC=CC(C)=CC=CC=CC(C)C(O)C=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>sipP2&#8594sipP4&#8594sipP3&#8594sipP5&#8594sipL2&#8594sipP1</td>
+<td>0.6479851962092479</td>
+<td>C(C)=CC=CC=CC(C)C(O)C=CC=CC=CC=CC([*])C(-O)C(C)=CC=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>sipL2&#8594sipP1&#8594sipP4&#8594sipP2&#8594sipP3&#8594sipP5</td>
+<td>0.6340090528393472</td>
+<td>C([*])C(-O)C(C)=CC=CC(C)C(O)C(C)=CC=CC=CC=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>sipP1&#8594sipP2&#8594sipP4&#8594sipP3&#8594sipP5&#8594sipL2</td>
+<td>0.6257490893502355</td>
+<td>C(C)=CC=CC(C)=CC=CC=CC(C)C(O)C=CC=CC=CC=CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>sipP2&#8594sipP3&#8594sipP5&#8594sipL2&#8594sipP1&#8594sipP4</td>
+<td>0.618727758573289</td>
+<td>C(C)=CC=CC=CC=CC=CC=CC=CC([*])C(-O)C(C)=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>sipL2&#8594sipP1&#8594sipP3&#8594sipP5&#8594sipP2&#8594sipP4</td>
+<td>0.6149725662849808</td>
+<td>C([*])C(-O)C(C)=CC=CC=CC=CC=CC=CC(C)=CC=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>sipP3&#8594sipP5&#8594sipL2&#8594sipP1&#8594sipP2&#8594sipP4</td>
+<td>0.6091605083081278</td>
+<td>C=CC=CC=CC=CC([*])C(-O)C(C)=CC=CC(C)=CC=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>sipL2&#8594sipP1&#8594sipP4&#8594sipP3&#8594sipP5&#8594sipP2</td>
+<td>0.608277020893369</td>
+<td>C([*])C(-O)C(C)=CC=CC(C)C(O)C=CC=CC=CC=CC(C)=CC=CC=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>sipP4&#8594sipP3&#8594sipP5&#8594sipL2&#8594sipP1&#8594sipP2</td>
+<td>0.6031167560427224</td>
+<td>C(C)C(O)C=CC=CC=CC=CC([*])C(-O)C(C)=CC=CC(C)=CC=CC=C</td>
+</tr>
+<tr>
+<td>10</td>
+<td>sipP4&#8594sipP2&#8594sipP3&#8594sipP5&#8594sipL2&#8594sipP1</td>
+<td>0.5979315145755348</td>
+<td>C(C)C(O)C(C)=CC=CC=CC=CC=CC=CC=CC([*])C(-O)C(C)=CC=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_125</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000143/'>BGC0000143</a></td>
+<td>salinomycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/18062184'>18062184</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">salA&#8594ABG02264.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_125">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_125" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>salA&#8594ABG02264.1</td>
+<td>0.5622916380952463</td>
+<td>CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ABG02264.1&#8594salA</td>
+<td>0.3300876770248171</td>
+<td>CC(O)CC(O)CC(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_126</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000127/'>BGC0000127</a></td>
+<td>pyoluteorin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/9434161'>9434161</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">pltB&#8594pltC&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_126">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_126" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>pltB&#8594pltC</td>
+<td>0.3884715239001493</td>
+<td>CC(=O)CC(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>pltC&#8594pltB</td>
+<td>0.3669302918873217</td>
+<td>CC(O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_127</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001298/'>BGC0001298</a></td>
+<td>4-z-annimycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/24120331'>24120331</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">AGY30676.1&#8594AGY30677.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_127">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_127" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AGY30676.1&#8594AGY30677.1</td>
+<td>0.6681703119009835</td>
+<td>C(C)C(=O)C=CC(C)=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AGY30677.1&#8594AGY30676.1</td>
+<td>0.32988198159650817</td>
+<td>C=CC=CC(C)C(=O)C=CC(C)=CC=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_128</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000077/'>BGC0000077</a></td>
+<td>hypothemycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/18567690'>18567690</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">hpm8&#8594hpm3&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_128">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_128" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>hpm8&#8594hpm3</td>
+<td>0.38658528957042476</td>
+<td>C([*])C(-O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>hpm3&#8594hpm8</td>
+<td>0.3715641989895178</td>
+<td>CC(=O)C([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_129</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001653/'>BGC0001653</a></td>
+<td>linfuranone b</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/29939741'>29939741</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">AP234_RS14720&#8594AP234_RS14710&#8594AP234_RS14715&#8594AP234_RS14705&#8594AP234_RS14725&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_129">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_129" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AP234_RS14720&#8594AP234_RS14710&#8594AP234_RS14715&#8594AP234_RS14705&#8594AP234_RS14725</td>
+<td>0.6526490267243286</td>
+<td>C(C)C(O)C(C)=CC(C)C(O)C(C)C(O)C=CCCC=CC=CC(C)C(O)CCC(C)C(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AP234_RS14720&#8594AP234_RS14715&#8594AP234_RS14710&#8594AP234_RS14705&#8594AP234_RS14725</td>
+<td>0.6293513294745825</td>
+<td>C(C)C(O)C(C)=CC(C)C(O)C=CC=CC(C)C(O)C=CCCC(C)C(O)CCC(C)C(=O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>AP234_RS14720&#8594AP234_RS14715&#8594AP234_RS14705&#8594AP234_RS14725&#8594AP234_RS14710</td>
+<td>0.6272045150248102</td>
+<td>C(C)C(O)C(C)=CC(C)C(O)C=CC=CC(C)C(O)CCC(C)C(=O)C(C)C(O)C=CCC</td>
+</tr>
+<tr>
+<td>4</td>
+<td>AP234_RS14725&#8594AP234_RS14710&#8594AP234_RS14720&#8594AP234_RS14715&#8594AP234_RS14705</td>
+<td>0.6249490634527279</td>
+<td>CCC(C)C(=O)C(C)C(O)C=CCCC(C)C(O)C(C)=CC(C)C(O)C=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>AP234_RS14720&#8594AP234_RS14710&#8594AP234_RS14705&#8594AP234_RS14725&#8594AP234_RS14715</td>
+<td>0.6233978615266325</td>
+<td>C(C)C(O)C(C)=CC(C)C(O)C(C)C(O)C=CCCC(C)C(O)CCC(C)C(=O)C=CC=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>AP234_RS14725&#8594AP234_RS14715&#8594AP234_RS14720&#8594AP234_RS14710&#8594AP234_RS14705</td>
+<td>0.6193010764149705</td>
+<td>CCC(C)C(=O)C=CC=CC(C)C(O)C(C)=CC(C)C(O)C(C)C(O)C=CCCC(C)C(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>AP234_RS14725&#8594AP234_RS14720&#8594AP234_RS14710&#8594AP234_RS14715&#8594AP234_RS14705</td>
+<td>0.618115564283205</td>
+<td>CCC(C)C(=O)C(C)C(O)C(C)=CC(C)C(O)C(C)C(O)C=CCCC=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>AP234_RS14720&#8594AP234_RS14705&#8594AP234_RS14725&#8594AP234_RS14710&#8594AP234_RS14715</td>
+<td>0.6164049998615023</td>
+<td>C(C)C(O)C(C)=CC(C)C(O)C(C)C(O)CCC(C)C(=O)C(C)C(O)C=CCCC=CC=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>AP234_RS14725&#8594AP234_RS14710&#8594AP234_RS14715&#8594AP234_RS14720&#8594AP234_RS14705</td>
+<td>0.6123082147498404</td>
+<td>CCC(C)C(=O)C(C)C(O)C=CCCC=CC=CC(C)C(O)C(C)=CC(C)C(O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>AP234_RS14710&#8594AP234_RS14720&#8594AP234_RS14715&#8594AP234_RS14705&#8594AP234_RS14725</td>
+<td>0.6060780913216202</td>
+<td>C(C)C(O)C=CCCC(C)C(O)C(C)=CC(C)C(O)C=CC=CC(C)C(O)CCC(C)C(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_130</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001245/'>BGC0001245</a></td>
+<td>lasiodiplodin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/24597618'>24597618</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">lasS1&#8594lasS2&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_130">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_130" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>lasS1&#8594lasS2</td>
+<td>0.4620962391101473</td>
+<td>C([*])C(-O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>lasS2&#8594lasS1</td>
+<td>0.27684632443255447</td>
+<td>CC(=O)C([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_131</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000091/'>BGC0000091</a></td>
+<td>marineosin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/24575817'>24575817</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">marX&#8594marL&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_131">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_131" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>marX&#8594marL</td>
+<td>0.4496335914448599</td>
+<td>CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>marL&#8594marX</td>
+<td>0.3821696030762923</td>
+<td>CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_132</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000041/'>BGC0000041</a></td>
+<td>coronafacic acid</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/9860992'>9860992</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">cfa6&#8594cfa7&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_132">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_132" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>cfa6&#8594cfa7</td>
+<td>0.6776360752515442</td>
+<td>C(C)C(=O)C(CC)CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>cfa7&#8594cfa6</td>
+<td>0.4945579868889597</td>
+<td>C=CC(C)C(=O)C(CC)C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_133</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000109/'>BGC0000109</a></td>
+<td>nemadectin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/'></a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">nemA1-1&#8594nemA1-2&#8594nemA2&#8594nemA3&#8594nemA4&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_133">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_133" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>nemA1-1&#8594nemA1-2&#8594nemA2&#8594nemA3&#8594nemA4</td>
+<td>0.6591334267165455</td>
+<td>C(CC)C(=O)C(C)=CC(C)C(O)CCCC(=O)CC(O)CC(O)C(C)=CC(C)=CC=CC(C)CC=CC(C)C(O)CC(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>nemA1-2&#8594nemA2&#8594nemA3&#8594nemA4&#8594nemA1-1</td>
+<td>0.5924395669191622</td>
+<td>C(C)C(O)CCCC(=O)CC(O)CC(O)C(C)=CC(C)=CC=CC(C)CC=CC(C)C(O)CC(O)C(CC)C(=O)C(C)=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>nemA4&#8594nemA1-1&#8594nemA1-2&#8594nemA2&#8594nemA3</td>
+<td>0.5848603910509804</td>
+<td>C=CC(C)C(O)CC(O)C(CC)C(=O)C(C)=CC(C)C(O)CCCC(=O)CC(O)CC(O)C(C)=CC(C)=CC=CC(C)C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>nemA1-2&#8594nemA2&#8594nemA3&#8594nemA1-1&#8594nemA4</td>
+<td>0.5781880665682975</td>
+<td>C(C)C(O)CCCC(=O)CC(O)CC(O)C(C)=CC(C)=CC=CC(C)CC(CC)C(=O)C(C)=CC=CC(C)C(O)CC(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>nemA3&#8594nemA4&#8594nemA1-1&#8594nemA1-2&#8594nemA2</td>
+<td>0.567378842642267</td>
+<td>C(C)=CC=CC(C)CC=CC(C)C(O)CC(O)C(CC)C(=O)C(C)=CC(C)C(O)CCCC(=O)CC(O)CC(O)C(C)=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>nemA1-1&#8594nemA2&#8594nemA3&#8594nemA1-2&#8594nemA4</td>
+<td>0.5584553749910323</td>
+<td>C(CC)C(=O)C(C)=CCC(=O)CC(O)CC(O)C(C)=CC(C)=CC=CC(C)CC(C)C(O)CCC=CC(C)C(O)CC(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>nemA2&#8594nemA3&#8594nemA4&#8594nemA1-1&#8594nemA1-2</td>
+<td>0.5549414159243722</td>
+<td>CC(=O)CC(O)CC(O)C(C)=CC(C)=CC=CC(C)CC=CC(C)C(O)CC(O)C(CC)C(=O)C(C)=CC(C)C(O)CC</td>
+</tr>
+<tr>
+<td>8</td>
+<td>nemA1-2&#8594nemA1-1&#8594nemA2&#8594nemA3&#8594nemA4</td>
+<td>0.5448124320342282</td>
+<td>C(C)C(O)CCC(CC)C(=O)C(C)=CCC(=O)CC(O)CC(O)C(C)=CC(C)=CC=CC(C)CC=CC(C)C(O)CC(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>nemA2&#8594nemA3&#8594nemA1-1&#8594nemA1-2&#8594nemA4</td>
+<td>0.5367208961523613</td>
+<td>CC(=O)CC(O)CC(O)C(C)=CC(C)=CC=CC(C)CC(CC)C(=O)C(C)=CC(C)C(O)CCC=CC(C)C(O)CC(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>nemA4&#8594nemA1-1&#8594nemA2&#8594nemA3&#8594nemA1-2</td>
+<td>0.5246161127731341</td>
+<td>C=CC(C)C(O)CC(O)C(CC)C(=O)C(C)=CCC(=O)CC(O)CC(O)C(C)=CC(C)=CC=CC(C)CC(C)C(O)CC</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_134</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000059/'>BGC0000059</a></td>
+<td>filipin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/23990133'>23990133</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">pteA4&#8594pteA5&#8594pteA1&#8594pteA2&#8594pteA3&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_134">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_134" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>pteA4&#8594pteA5&#8594pteA1&#8594pteA2&#8594pteA3</td>
+<td>0.6524449552974504</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>pteA1&#8594pteA2&#8594pteA3&#8594pteA4&#8594pteA5</td>
+<td>0.650830467956854</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>pteA1&#8594pteA4&#8594pteA3&#8594pteA2&#8594pteA5</td>
+<td>0.6461692512239503</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>pteA4&#8594pteA1&#8594pteA2&#8594pteA3&#8594pteA5</td>
+<td>0.6442260940907394</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>pteA1&#8594pteA4&#8594pteA2&#8594pteA3&#8594pteA5</td>
+<td>0.6436550760526257</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>pteA1&#8594pteA2&#8594pteA4&#8594pteA3&#8594pteA5</td>
+<td>0.6387170034829953</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>pteA1&#8594pteA3&#8594pteA2&#8594pteA4&#8594pteA5</td>
+<td>0.6373575179993797</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>pteA1&#8594pteA2&#8594pteA3&#8594pteA5&#8594pteA4</td>
+<td>0.618860796354833</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>pteA4&#8594pteA3&#8594pteA1&#8594pteA2&#8594pteA5</td>
+<td>0.6108034752449385</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>pteA4&#8594pteA1&#8594pteA3&#8594pteA2&#8594pteA5</td>
+<td>0.6041965291907592</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_135</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000111/'>BGC0000111</a></td>
+<td>neocarzilin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/15328113'>15328113</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">BAD38874.1&#8594BAD38873.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_135">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_135" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>BAD38874.1&#8594BAD38873.1</td>
+<td>0.46541459534640917</td>
+<td>C=CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>BAD38873.1&#8594BAD38874.1</td>
+<td>0.4108246851241321</td>
+<td>C([*])C(-O)C=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_136</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000006/'>BGC0000006</a></td>
+<td>aflatoxin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/15528514'>15528514</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">pksA&#8594AAS90095.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_136">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_136" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>pksA&#8594AAS90095.1</td>
+<td>0.6333060006879772</td>
+<td>CC(=O)C([*])C(-O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AAS90095.1&#8594pksA</td>
+<td>0.4911878783300344</td>
+<td>C([*])C(-O)C([*])C(-O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_137</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001447/'>BGC0001447</a></td>
+<td>primycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/'></a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475&#8594SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23480&#8594SZMC14600_23485&#8594SZMC14600_23490&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_137">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_137" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475&#8594SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23480&#8594SZMC14600_23485&#8594SZMC14600_23490</td>
+<td>0.6206723919072807</td>
+<td>CCCC(O)CC(O)CC(O)CC(O)CC(O)C(C)=CC(C)C(O)C(C)=CCCC(C)=CCC(O)CCCC(O)C(C)CC(CC)C(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SZMC14600_23485&#8594SZMC14600_23490&#8594SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475&#8594SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23480</td>
+<td>0.6155693655629141</td>
+<td>C(C)CC(CC)C(O)CCCC(O)CC(O)CC(O)CC(O)CC(O)C(C)=CC(C)C(O)C(C)=CCCC(C)=CCC(O)CCCC(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SZMC14600_23485&#8594SZMC14600_23490&#8594SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23480&#8594SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475</td>
+<td>0.6117437936937037</td>
+<td>C(C)CC(CC)C(O)C(C)=CC(C)C(O)C(C)=CCCC(C)=CCC(O)CCCC(O)CCCC(O)CC(O)CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475&#8594SZMC14600_23480&#8594SZMC14600_23485&#8594SZMC14600_23490</td>
+<td>0.6116925160228489</td>
+<td>C(C)=CC(C)C(O)C(C)=CCCCCCC(O)CC(O)CC(O)CC(O)CC(O)C(C)=CCC(O)CCCC(O)C(C)CC(CC)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>SZMC14600_23485&#8594SZMC14600_23490&#8594SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475&#8594SZMC14600_23480</td>
+<td>0.6113640055061567</td>
+<td>C(C)CC(CC)C(O)C(C)=CC(C)C(O)C(C)=CCCCCCC(O)CC(O)CC(O)CC(O)CC(O)C(C)=CCC(O)CCCC(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475&#8594SZMC14600_23480&#8594SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23485&#8594SZMC14600_23490</td>
+<td>0.611062936217405</td>
+<td>CCCC(O)CC(O)CC(O)CC(O)CC(O)C(C)=CCC(O)CCCC(O)C(C)=CC(C)C(O)C(C)=CCCC(C)CC(CC)C(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>SZMC14600_23485&#8594SZMC14600_23490&#8594SZMC14600_23480&#8594SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475</td>
+<td>0.6096193145239025</td>
+<td>C(C)CC(CC)C(O)C(C)=CCC(O)CCCC(O)C(C)=CC(C)C(O)C(C)=CCCCCCC(O)CC(O)CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23480&#8594SZMC14600_23485&#8594SZMC14600_23490&#8594SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475</td>
+<td>0.6070090923412496</td>
+<td>C(C)=CC(C)C(O)C(C)=CCCC(C)=CCC(O)CCCC(O)C(C)CC(CC)C(O)CCCC(O)CC(O)CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>SZMC14600_23480&#8594SZMC14600_23485&#8594SZMC14600_23490&#8594SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475</td>
+<td>0.5998881613374166</td>
+<td>C(C)=CCC(O)CCCC(O)C(C)CC(CC)C(O)C(C)=CC(C)C(O)C(C)=CCCCCCC(O)CC(O)CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>SZMC14600_23465&#8594SZMC14600_23470&#8594SZMC14600_23475&#8594SZMC14600_23450&#8594SZMC14600_23460&#8594SZMC14600_23485&#8594SZMC14600_23490&#8594SZMC14600_23480</td>
+<td>0.5992376118805681</td>
+<td>CCCC(O)CC(O)CC(O)CC(O)CC(O)C(C)=CC(C)C(O)C(C)=CCCC(C)CC(CC)C(O)C(C)=CCC(O)CCCC(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_138</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001143/'>BGC0001143</a></td>
+<td>azanigerone</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/22921072'>22921072</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ASPNIDRAFT_56946&#8594ASPNIDRAFT_188817&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_138">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_138" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ASPNIDRAFT_56946&#8594ASPNIDRAFT_188817</td>
+<td>0.4495313352420187</td>
+<td>C([*])C(-O)CC</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ASPNIDRAFT_188817&#8594ASPNIDRAFT_56946</td>
+<td>0.3598917651971529</td>
+<td>CCC([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_139</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000038/'>BGC0000038</a></td>
+<td>coelimycin p1</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/17009021'>17009021</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/20447997'>20447997</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/24660171'>24660171</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">SCO6275&#8594SCO6274&#8594SCO6273&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_139">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_139" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>SCO6275&#8594SCO6274&#8594SCO6273</td>
+<td>0.5404763590213932</td>
+<td>C=CC=CCC(=O)C=CC=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SCO6275&#8594SCO6273&#8594SCO6274</td>
+<td>0.4714531678183792</td>
+<td>C=CC=CCC(=O)C=CC=CC=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SCO6274&#8594SCO6275&#8594SCO6273</td>
+<td>0.4484409965745619</td>
+<td>C=CC=CC=CC=CCC(=O)C=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>SCO6273&#8594SCO6275&#8594SCO6274</td>
+<td>0.41258038368600347</td>
+<td>C=CC=CC=CCC(=O)C=CC=C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>SCO6274&#8594SCO6273&#8594SCO6275</td>
+<td>0.4044060892010436</td>
+<td>C=CC=CC=CC=CC=CCC(=O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>SCO6273&#8594SCO6274&#8594SCO6275</td>
+<td>0.3548593743626322</td>
+<td>C=CC=CC=CC=CC=CCC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_140</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000114/'>BGC0000114</a></td>
+<td>nigericin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/17584617'>17584617</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ABC84456.1&#8594ABC84457.1&#8594ABC84458.1&#8594ABC84469.1&#8594ABC84460.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84470.1&#8594ABC84459.1&#8594ABC84465.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_140">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_140" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ABC84456.1&#8594ABC84457.1&#8594ABC84458.1&#8594ABC84469.1&#8594ABC84460.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84470.1&#8594ABC84459.1&#8594ABC84465.1</td>
+<td>0.700115603269528</td>
+<td>CC(=O)C(C)C(=O)C(C)CC=CC(C)CC(C)=CC(C)=CC(C)CC(C)C(O)CC(O)CC(O)CC(O)C(C)CC(C)=CCC</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ABC84456.1&#8594ABC84457.1&#8594ABC84458.1&#8594ABC84469.1&#8594ABC84460.1&#8594ABC84459.1&#8594ABC84470.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84465.1</td>
+<td>0.6987474187622934</td>
+<td>CC(=O)C(C)C(=O)C(C)CC=CC(C)CC(C)=CC(C)=CC(C)CC(C)=CCCC(C)CC(C)C(O)CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>ABC84456.1&#8594ABC84457.1&#8594ABC84458.1&#8594ABC84459.1&#8594ABC84470.1&#8594ABC84469.1&#8594ABC84460.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84465.1</td>
+<td>0.691481622908376</td>
+<td>CC(=O)C(C)C(=O)C(C)CC=CC(C)CC(C)=CCCC(C)CC(C)=CC(C)=CC(C)CC(C)C(O)CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ABC84456.1&#8594ABC84457.1&#8594ABC84460.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84470.1&#8594ABC84459.1&#8594ABC84458.1&#8594ABC84469.1&#8594ABC84465.1</td>
+<td>0.6897222336336263</td>
+<td>CC(=O)C(C)C(=O)C(C)CC(C)=CC(C)CC(C)C(O)CC(O)CC(O)CC(O)C(C)CC(C)=CCCC=CC(C)CC(C)=C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>ABC84456.1&#8594ABC84457.1&#8594ABC84458.1&#8594ABC84469.1&#8594ABC84470.1&#8594ABC84459.1&#8594ABC84460.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84465.1</td>
+<td>0.6835402836165304</td>
+<td>CC(=O)C(C)C(=O)C(C)CC=CC(C)CC(C)=CC(C)CC(C)=CCCC(C)=CC(C)CC(C)C(O)CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>ABC84456.1&#8594ABC84457.1&#8594ABC84460.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84470.1&#8594ABC84469.1&#8594ABC84458.1&#8594ABC84459.1&#8594ABC84465.1</td>
+<td>0.683296203894023</td>
+<td>CC(=O)C(C)C(=O)C(C)CC(C)=CC(C)CC(C)C(O)CC(O)CC(O)CC(O)C(C)CC(C)=CC=CC(C)CC(C)=CCC</td>
+</tr>
+<tr>
+<td>7</td>
+<td>ABC84456.1&#8594ABC84457.1&#8594ABC84460.1&#8594ABC84459.1&#8594ABC84458.1&#8594ABC84469.1&#8594ABC84470.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84465.1</td>
+<td>0.6829923785579894</td>
+<td>CC(=O)C(C)C(=O)C(C)CC(C)=CC(C)CC(C)=CCCC=CC(C)CC(C)=CC(C)CC(C)C(O)CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>ABC84470.1&#8594ABC84459.1&#8594ABC84456.1&#8594ABC84457.1&#8594ABC84458.1&#8594ABC84469.1&#8594ABC84460.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84465.1</td>
+<td>0.6821167230628454</td>
+<td>C(C)CC(C)=CCCCC(=O)C(C)C(=O)C(C)CC=CC(C)CC(C)=CC(C)=CC(C)CC(C)C(O)CC(O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>ABC84456.1&#8594ABC84457.1&#8594ABC84458.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84470.1&#8594ABC84469.1&#8594ABC84460.1&#8594ABC84459.1&#8594ABC84465.1</td>
+<td>0.6817788015122027</td>
+<td>CC(=O)C(C)C(=O)C(C)CC=CC(C)CC(C)C(O)CC(O)CC(O)CC(O)C(C)CC(C)=CC(C)=CC(C)CC(C)=CCC</td>
+</tr>
+<tr>
+<td>10</td>
+<td>ABC84456.1&#8594ABC84460.1&#8594ABC84461.1&#8594ABC84471.1&#8594ABC84470.1&#8594ABC84469.1&#8594ABC84457.1&#8594ABC84458.1&#8594ABC84459.1&#8594ABC84465.1</td>
+<td>0.6808698226994346</td>
+<td>CC(=O)C(C)C(=O)C(C)=CC(C)CC(C)C(O)CC(O)CC(O)CC(O)C(C)CC(C)=CC(C)CC=CC(C)CC(C)=CCC</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_141</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001359/'>BGC0001359</a></td>
+<td>pm100117</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/26648119'>26648119</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">gonP6&#8594gonP7&#8594gonP8&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_141">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_141" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>gonP6&#8594gonP7&#8594gonP8</td>
+<td>0.6405285096937704</td>
+<td>CC(O)CCCC(O)C(C)C(O)C=CC(C)=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>gonP8&#8594gonP6&#8594gonP7</td>
+<td>0.5960089734960958</td>
+<td>C(C)=CCC(O)CCCC(O)C(C)C(O)C=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>gonP7&#8594gonP8&#8594gonP6</td>
+<td>0.3526124014590788</td>
+<td>C(C)C(O)C=CC(C)=CCC(O)CCCC(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>gonP6&#8594gonP8&#8594gonP7</td>
+<td>0.27878567308014146</td>
+<td>CC(O)CCCC(O)C(C)=CC(C)C(O)C=C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>gonP8&#8594gonP7&#8594gonP6</td>
+<td>0.27781724619366266</td>
+<td>C(C)=CC(C)C(O)C=CCC(O)CCCC(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>gonP7&#8594gonP6&#8594gonP8</td>
+<td>0.26456403169384163</td>
+<td>C(C)C(O)C=CCC(O)CCCC(O)C(C)=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_142</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001405/'>BGC0001405</a></td>
+<td>chaetoviridin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/23072467'>23072467</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">CHGG_07638&#8594CHGG_07645&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_142">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_142" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>CHGG_07638&#8594CHGG_07645</td>
+<td>0.47441350384325276</td>
+<td>C([*])C(-O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>CHGG_07645&#8594CHGG_07638</td>
+<td>0.37292773585963235</td>
+<td>CC(=O)C([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_143</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000095/'>BGC0000095</a></td>
+<td>micromonolactam</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/23677034'>23677034</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">mmlC&#8594mmlB&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_143">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_143" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>mmlC&#8594mmlB</td>
+<td>0.6785231238774396</td>
+<td>CC(O)CC(O)C=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>mmlB&#8594mmlC</td>
+<td>0.6717205108112119</td>
+<td>C=CCC(O)CC(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_144</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001492/'>BGC0001492</a></td>
+<td>abyssomicins m-x</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/28358212'>28358212</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ARE67853.1&#8594ARE67852.1&#8594ARE67851.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_144">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_144" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ARE67853.1&#8594ARE67852.1&#8594ARE67851.1</td>
+<td>0.5432454142357244</td>
+<td>CC(=O)C(C)=CC=CC=CC(C)C(=O)C(C)CCC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ARE67851.1&#8594ARE67853.1&#8594ARE67852.1</td>
+<td>0.5412542089009393</td>
+<td>CC(=O)CC(=O)C(C)=CC=CC=CC(C)C(=O)C(C)C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>ARE67852.1&#8594ARE67851.1&#8594ARE67853.1</td>
+<td>0.5115903681100462</td>
+<td>C(C)C(=O)C(C)CCC(=O)CC(=O)C(C)=CC=CC=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ARE67853.1&#8594ARE67851.1&#8594ARE67852.1</td>
+<td>0.49531768416596345</td>
+<td>CC(=O)C(C)=CC=CC=CCC(=O)C(C)C(=O)C(C)C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>ARE67851.1&#8594ARE67852.1&#8594ARE67853.1</td>
+<td>0.45557967750396133</td>
+<td>CC(=O)C(C)C(=O)C(C)CCC(=O)C(C)=CC=CC=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>ARE67852.1&#8594ARE67853.1&#8594ARE67851.1</td>
+<td>0.42241744259652647</td>
+<td>C(C)C(=O)C(C)CCC(=O)C(C)=CC=CC=CCC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_145</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001357/'>BGC0001357</a></td>
+<td>carbamidocyclophane a</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/26805858'>26805858</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">cabD&#8594cabH&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_145">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_145" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>cabD&#8594cabH</td>
+<td>0.44303418071840955</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>cabH&#8594cabD</td>
+<td>0.28047239381290345</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_146</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001236/'>BGC0001236</a></td>
+<td>thiotetroamide</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/'></a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ttmG&#8594ttmH&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_146">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_146" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ttmG&#8594ttmH</td>
+<td>0.5029340392378593</td>
+<td>C([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ttmH&#8594ttmG</td>
+<td>0.3248228902956686</td>
+<td>C([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_147</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000075/'>BGC0000075</a></td>
+<td>hygrocin a</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/24501776'>24501776</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">hgcA&#8594hgcB&#8594hgcD&#8594hgcE&#8594hgcC&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_147">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_147" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>hgcA&#8594hgcB&#8594hgcD&#8594hgcE&#8594hgcC</td>
+<td>0.5727845738777779</td>
+<td>C(C)=CCC(=O)CC(O)C(CC)CC(C)CC(C)C(=O)C=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>hgcA&#8594hgcB&#8594hgcC&#8594hgcD&#8594hgcE</td>
+<td>0.5649603564187149</td>
+<td>C(C)=CCC(=O)CC(O)C(CC)CC=CC(C)CC(C)C(=O)C=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>hgcC&#8594hgcD&#8594hgcE&#8594hgcA&#8594hgcB</td>
+<td>0.556260558970195</td>
+<td>C=CC(C)CC(C)C(=O)C=CC(C)=CCC(=O)CC(O)C(CC)C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>hgcA&#8594hgcE&#8594hgcC&#8594hgcD&#8594hgcB</td>
+<td>0.5428804285636253</td>
+<td>C(C)=CCC(=O)CC(O)C(C)C(=O)C=CC=CC(C)CC(CC)C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>hgcE&#8594hgcC&#8594hgcD&#8594hgcA&#8594hgcB</td>
+<td>0.5300055040221048</td>
+<td>C(C)C(=O)C=CC=CC(C)CC(C)=CCC(=O)CC(O)C(CC)C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>hgcA&#8594hgcC&#8594hgcD&#8594hgcE&#8594hgcB</td>
+<td>0.5266737427840259</td>
+<td>C(C)=CCC(=O)CC(O)C=CC(C)CC(C)C(=O)C=CC(CC)C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>hgcC&#8594hgcD&#8594hgcE&#8594hgcB&#8594hgcA</td>
+<td>0.5188849396649622</td>
+<td>C=CC(C)CC(C)C(=O)C=CC(CC)CC(C)=CCC(=O)CC(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>hgcB&#8594hgcC&#8594hgcD&#8594hgcE&#8594hgcA</td>
+<td>0.512336355918624</td>
+<td>C(CC)CC=CC(C)CC(C)C(=O)C=CC(C)=CCC(=O)CC(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>hgcC&#8594hgcB&#8594hgcD&#8594hgcE&#8594hgcA</td>
+<td>0.5063777671051843</td>
+<td>C=CC(CC)CC(C)CC(C)C(=O)C=CC(C)=CCC(=O)CC(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>hgcE&#8594hgcC&#8594hgcD&#8594hgcB&#8594hgcA</td>
+<td>0.5062467760803339</td>
+<td>C(C)C(=O)C=CC=CC(C)CC(CC)CC(C)=CCC(=O)CC(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_148</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000141/'>BGC0000141</a></td>
+<td>rubradirin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/9387157'>9387157</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">rubA&#8594rubB&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_148">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_148" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>rubA&#8594rubB</td>
+<td>0.461969311910372</td>
+<td>C(C)C(O)CC(=O)C(C)=CC(C)=CC=CC(C)=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>rubB&#8594rubA</td>
+<td>0.39672995839194547</td>
+<td>C(C)=CC=CC(C)=CC(C)C(O)CC(=O)C(C)=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_149</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000009/'>BGC0000009</a></td>
+<td>aflatoxin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/15528514'>15528514</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">AAS90047.1&#8594AAS90050.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_149">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_149" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AAS90047.1&#8594AAS90050.1</td>
+<td>0.641950830272237</td>
+<td>CC(=O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AAS90050.1&#8594AAS90047.1</td>
+<td>0.4277194441815425</td>
+<td>C([*])C(-O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_150</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001523/'>BGC0001523</a></td>
+<td>azalomycin f</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/28418225'>28418225</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">azlD&#8594azlH&#8594azlA&#8594azlC&#8594azlB&#8594azlE&#8594azlF&#8594azlG&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_150">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_150" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>azlD&#8594azlH&#8594azlA&#8594azlC&#8594azlB&#8594azlE&#8594azlF&#8594azlG</td>
+<td>0.6011558624217486</td>
+<td>CC(O)CC(O)CC(O)C(C)=CCCC([*])C(-O)CC(O)C([*])C(-O)C([*])C(-O)C=CCC(O)CC(O)CC(=O)C([*])C(-O)CCC([*])C(-O)CC(O)C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>azlD&#8594azlE&#8594azlF&#8594azlG&#8594azlA&#8594azlC&#8594azlB&#8594azlH</td>
+<td>0.5985650949366893</td>
+<td>CC(O)CC(O)CC(O)CC(O)CC(O)CC(=O)C([*])C(-O)CCC([*])C(-O)CC(O)C([*])C(-O)C=CCCC([*])C(-O)CC(O)C([*])C(-O)C([*])C(-O)C=CC(C)=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>azlA&#8594azlC&#8594azlB&#8594azlH&#8594azlD&#8594azlE&#8594azlF&#8594azlG</td>
+<td>0.5965374727061935</td>
+<td>CCC([*])C(-O)CC(O)C([*])C(-O)C([*])C(-O)C=CC(C)=CCC(O)CC(O)CC(O)CC(O)CC(O)CC(=O)C([*])C(-O)CCC([*])C(-O)CC(O)C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>azlD&#8594azlH&#8594azlA&#8594azlC&#8594azlB&#8594azlF&#8594azlE&#8594azlG</td>
+<td>0.5963978362366781</td>
+<td>CC(O)CC(O)CC(O)C(C)=CCCC([*])C(-O)CC(O)C([*])C(-O)C([*])C(-O)C=CC([*])C(-O)CC(O)CC(O)CC(O)CC(=O)C([*])C(-O)CCC([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>azlD&#8594azlH&#8594azlA&#8594azlC&#8594azlB&#8594azlG&#8594azlE&#8594azlF</td>
+<td>0.5954116351557687</td>
+<td>CC(O)CC(O)CC(O)C(C)=CCCC([*])C(-O)CC(O)C([*])C(-O)C([*])C(-O)C=CC([*])C(-O)C=CCC(O)CC(O)CC(=O)C([*])C(-O)CCC([*])C(-O)CC(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>azlD&#8594azlH&#8594azlA&#8594azlE&#8594azlC&#8594azlB&#8594azlF&#8594azlG</td>
+<td>0.5897623237122548</td>
+<td>CC(O)CC(O)CC(O)C(C)=CCCCC(O)CC(O)CC(=O)C([*])C(-O)CCC([*])C(-O)CC(O)C([*])C(-O)C([*])C(-O)C=CC([*])C(-O)CC(O)C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>azlD&#8594azlE&#8594azlF&#8594azlH&#8594azlA&#8594azlC&#8594azlB&#8594azlG</td>
+<td>0.5877413661097807</td>
+<td>CC(O)CC(O)CC(O)CC(O)CC(O)CC(=O)C([*])C(-O)CCC([*])C(-O)CC(O)C(C)=CCCC([*])C(-O)CC(O)C([*])C(-O)C([*])C(-O)C=CC([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>azlD&#8594azlH&#8594azlA&#8594azlC&#8594azlB&#8594azlE&#8594azlG&#8594azlF</td>
+<td>0.587608524977621</td>
+<td>CC(O)CC(O)CC(O)C(C)=CCCC([*])C(-O)CC(O)C([*])C(-O)C([*])C(-O)C=CCC(O)CC(O)CC(=O)C([*])C(-O)CCC([*])C(-O)C=CC([*])C(-O)CC(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>azlD&#8594azlE&#8594azlC&#8594azlB&#8594azlH&#8594azlA&#8594azlF&#8594azlG</td>
+<td>0.5863392492364937</td>
+<td>CC(O)CC(O)CC(O)CC(O)CC(O)CC(=O)C([*])C(-O)CCC([*])C(-O)CC(O)C([*])C(-O)C([*])C(-O)C=CC(C)=CCCC([*])C(-O)CC(O)C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>10</td>
+<td>azlD&#8594azlE&#8594azlG&#8594azlH&#8594azlA&#8594azlC&#8594azlB&#8594azlF</td>
+<td>0.5859274226483178</td>
+<td>CC(O)CC(O)CC(O)CC(O)CC(O)CC(=O)C([*])C(-O)CCC([*])C(-O)C=CC(C)=CCCC([*])C(-O)CC(O)C([*])C(-O)C([*])C(-O)C=CC([*])C(-O)CC(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_151</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000162/'>BGC0000162</a></td>
+<td>tetrocarcin a</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/18586939'>18586939</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ACB37740.1&#8594ACB37741.1&#8594ACB37742.1&#8594ACB37755.1&#8594ACB37743.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_151">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_151" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ACB37740.1&#8594ACB37741.1&#8594ACB37742.1&#8594ACB37755.1&#8594ACB37743.1</td>
+<td>0.6343898184796688</td>
+<td>C([*])C(-O)C([*])C(-O)C([*])C(-O)C(C)=CC=CC(C)=CC=CC=CC(C)=CC([*])C(-O)C(C)=CCC(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ACB37742.1&#8594ACB37755.1&#8594ACB37743.1&#8594ACB37740.1&#8594ACB37741.1</td>
+<td>0.6081763859602161</td>
+<td>C(C)=CC([*])C(-O)C(C)=CCC(O)C([*])C(-O)C([*])C(-O)C([*])C(-O)C(C)=CC=CC(C)=CC=CC=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>ACB37740.1&#8594ACB37755.1&#8594ACB37743.1&#8594ACB37742.1&#8594ACB37741.1</td>
+<td>0.6043931809999425</td>
+<td>C([*])C(-O)C([*])C(-O)C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CCC(O)C(C)=CC=CC(C)=CC=CC=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ACB37742.1&#8594ACB37741.1&#8594ACB37740.1&#8594ACB37755.1&#8594ACB37743.1</td>
+<td>0.5813874909104342</td>
+<td>C(C)=CC=CC(C)=CC=CC=CC([*])C(-O)C([*])C(-O)C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CCC(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>ACB37741.1&#8594ACB37740.1&#8594ACB37755.1&#8594ACB37743.1&#8594ACB37742.1</td>
+<td>0.5774277871096851</td>
+<td>C=CC(C)=CC=CC=CC([*])C(-O)C([*])C(-O)C([*])C(-O)C(C)=CC([*])C(-O)C(C)=CCC(O)C(C)=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>ACB37742.1&#8594ACB37755.1&#8594ACB37743.1&#8594ACB37741.1&#8594ACB37740.1</td>
+<td>0.572902052772882</td>
+<td>C(C)=CC([*])C(-O)C(C)=CCC(O)C=CC(C)=CC=CC=CC([*])C(-O)C([*])C(-O)C([*])C(-O)C(C)=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>ACB37741.1&#8594ACB37742.1&#8594ACB37755.1&#8594ACB37743.1&#8594ACB37740.1</td>
+<td>0.571917721305561</td>
+<td>C=CC(C)=CC=CC=CC(C)=CC([*])C(-O)C(C)=CCC(O)C([*])C(-O)C([*])C(-O)C([*])C(-O)C(C)=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>ACB37743.1&#8594ACB37742.1&#8594ACB37755.1&#8594ACB37740.1&#8594ACB37741.1</td>
+<td>0.5717648604214995</td>
+<td>CC(O)C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C([*])C(-O)C([*])C(-O)C(C)=CC=CC(C)=CC=CC=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>ACB37741.1&#8594ACB37740.1&#8594ACB37742.1&#8594ACB37755.1&#8594ACB37743.1</td>
+<td>0.5697024416328345</td>
+<td>C=CC(C)=CC=CC=CC([*])C(-O)C([*])C(-O)C([*])C(-O)C(C)=CC(C)=CC([*])C(-O)C(C)=CCC(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>ACB37755.1&#8594ACB37743.1&#8594ACB37742.1&#8594ACB37741.1&#8594ACB37740.1</td>
+<td>0.5670916100233291</td>
+<td>C([*])C(-O)C(C)=CCC(O)C(C)=CC=CC(C)=CC=CC=CC([*])C(-O)C([*])C(-O)C([*])C(-O)C(C)=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_152</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001004/'>BGC0001004</a></td>
+<td>lobophorin b</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/23868295'>23868295</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/23432710'>23432710</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/21897400'>21897400</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">lobA5&#8594lobA4&#8594lobA3&#8594lobA1&#8594lobA2&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_152">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_152" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>lobA5&#8594lobA4&#8594lobA3&#8594lobA1&#8594lobA2</td>
+<td>0.6516112291352966</td>
+<td>C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C=CC=CC(C)=CC=CC(C)=CC(C)=CC([*])C(-O)CC(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>lobA2&#8594lobA5&#8594lobA4&#8594lobA3&#8594lobA1</td>
+<td>0.618537896891652</td>
+<td>CC(O)C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C=CC=CC(C)=CC=CC(C)=CC(C)=CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>lobA3&#8594lobA1&#8594lobA2&#8594lobA5&#8594lobA4</td>
+<td>0.5851853701377735</td>
+<td>C(C)=CC(C)=CC([*])C(-O)CC(O)C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C=CC=CC(C)=CC=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>lobA5&#8594lobA4&#8594lobA2&#8594lobA3&#8594lobA1</td>
+<td>0.5662822819921165</td>
+<td>C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C=CC=CC(C)=CC=CCC(O)C(C)=CC(C)=CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>lobA1&#8594lobA2&#8594lobA5&#8594lobA4&#8594lobA3</td>
+<td>0.5602805725607303</td>
+<td>C(C)=CC([*])C(-O)CC(O)C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C=CC=CC(C)=CC=CC(C)=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>lobA2&#8594lobA3&#8594lobA1&#8594lobA5&#8594lobA4</td>
+<td>0.5555752689502055</td>
+<td>CC(O)C(C)=CC(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C=CC=CC(C)=CC=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>lobA4&#8594lobA3&#8594lobA1&#8594lobA2&#8594lobA5</td>
+<td>0.5521964512121231</td>
+<td>C=CC=CC(C)=CC=CC(C)=CC(C)=CC([*])C(-O)CC(O)C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>lobA3&#8594lobA1&#8594lobA5&#8594lobA4&#8594lobA2</td>
+<td>0.5466099762087323</td>
+<td>C(C)=CC(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C=CC=CC(C)=CC=CCC(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>lobA5&#8594lobA2&#8594lobA4&#8594lobA3&#8594lobA1</td>
+<td>0.5316454104055055</td>
+<td>C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)CC(O)C=CC=CC(C)=CC=CC(C)=CC(C)=CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>lobA2&#8594lobA4&#8594lobA3&#8594lobA1&#8594lobA5</td>
+<td>0.5299625484023188</td>
+<td>CC(O)C=CC=CC(C)=CC=CC(C)=CC(C)=CC([*])C(-O)C(C)=CC([*])C(-O)C(C)=CC([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_153</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000053/'>BGC0000053</a></td>
+<td>elaiophylin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/'></a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ctg1_orf7&#8594ctg1_orf8&#8594ctg1_orf9&#8594ctg1_orf10&#8594ctg1_orf11&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_153">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_153" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ctg1_orf7&#8594ctg1_orf8&#8594ctg1_orf9&#8594ctg1_orf10&#8594ctg1_orf11</td>
+<td>0.6297692354470449</td>
+<td>CC(=O)C(CC)=CCC(O)C(C)C(O)C([*])C(-O)C([*])C(-O)C=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ctg1_orf7&#8594ctg1_orf9&#8594ctg1_orf10&#8594ctg1_orf8&#8594ctg1_orf11</td>
+<td>0.6218354858457777</td>
+<td>CC(=O)C(CC)=CCC(O)C([*])C(-O)C([*])C(-O)C=CC(C)C(O)C=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>ctg1_orf9&#8594ctg1_orf10&#8594ctg1_orf11&#8594ctg1_orf7&#8594ctg1_orf8</td>
+<td>0.6020358950078094</td>
+<td>C([*])C(-O)C([*])C(-O)C=CC=CCC(=O)C(CC)=CCC(O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ctg1_orf7&#8594ctg1_orf9&#8594ctg1_orf10&#8594ctg1_orf11&#8594ctg1_orf8</td>
+<td>0.5909251784207684</td>
+<td>CC(=O)C(CC)=CCC(O)C([*])C(-O)C([*])C(-O)C=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>ctg1_orf8&#8594ctg1_orf7&#8594ctg1_orf9&#8594ctg1_orf10&#8594ctg1_orf11</td>
+<td>0.5813157439816837</td>
+<td>C(C)C(O)CC(=O)C(CC)=CCC(O)C([*])C(-O)C([*])C(-O)C=CC=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>ctg1_orf9&#8594ctg1_orf7&#8594ctg1_orf8&#8594ctg1_orf10&#8594ctg1_orf11</td>
+<td>0.580926275728266</td>
+<td>C([*])C(-O)CC(=O)C(CC)=CCC(O)C(C)C(O)C([*])C(-O)C=CC=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>ctg1_orf11&#8594ctg1_orf7&#8594ctg1_orf9&#8594ctg1_orf10&#8594ctg1_orf8</td>
+<td>0.5743142509878281</td>
+<td>C=CCC(=O)C(CC)=CCC(O)C([*])C(-O)C([*])C(-O)C=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>ctg1_orf8&#8594ctg1_orf9&#8594ctg1_orf10&#8594ctg1_orf11&#8594ctg1_orf7</td>
+<td>0.5676669555053938</td>
+<td>C(C)C(O)C([*])C(-O)C([*])C(-O)C=CC=CCC(=O)C(CC)=CCC(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>ctg1_orf8&#8594ctg1_orf10&#8594ctg1_orf9&#8594ctg1_orf7&#8594ctg1_orf11</td>
+<td>0.5625846576861075</td>
+<td>C(C)C(O)C([*])C(-O)C=CC([*])C(-O)CC(=O)C(CC)=CCC(O)C=C</td>
+</tr>
+<tr>
+<td>10</td>
+<td>ctg1_orf8&#8594ctg1_orf11&#8594ctg1_orf7&#8594ctg1_orf9&#8594ctg1_orf10</td>
+<td>0.5619482396357385</td>
+<td>C(C)C(O)C=CCC(=O)C(CC)=CCC(O)C([*])C(-O)C([*])C(-O)C=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_154</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001287/'>BGC0001287</a></td>
+<td>chaxamycin a</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/26092459'>26092459</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">cxmA&#8594cxmB&#8594cxmC&#8594cxmD&#8594cxmE&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_154">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_154" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>cxmA&#8594cxmB&#8594cxmC&#8594cxmD&#8594cxmE</td>
+<td>0.6561111404229711</td>
+<td>C(C)C(O)CC(=O)C(C)=CC(C)=CC(C)=CC(C)=CC(C)=CC(C)=CC=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>cxmA&#8594cxmB&#8594cxmD&#8594cxmE&#8594cxmC</td>
+<td>0.6406809661066518</td>
+<td>C(C)C(O)CC(=O)C(C)=CC(C)=CC(C)=CC(C)=CC(C)=CC=CC=CC(C)=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>cxmC&#8594cxmD&#8594cxmE&#8594cxmA&#8594cxmB</td>
+<td>0.6187634281630447</td>
+<td>C(C)=CC(C)=CC=CC=CC(C)C(O)CC(=O)C(C)=CC(C)=CC(C)=CC(C)=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>cxmA&#8594cxmB&#8594cxmE&#8594cxmC&#8594cxmD</td>
+<td>0.6153705972654737</td>
+<td>C(C)C(O)CC(=O)C(C)=CC(C)=CC(C)=CC(C)=CC=CC=CC(C)=CC(C)=C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>cxmD&#8594cxmE&#8594cxmC&#8594cxmA&#8594cxmB</td>
+<td>0.6041934288279311</td>
+<td>C(C)=CC=CC=CC(C)=CC(C)C(O)CC(=O)C(C)=CC(C)=CC(C)=CC(C)=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>cxmB&#8594cxmC&#8594cxmD&#8594cxmE&#8594cxmA</td>
+<td>0.6040003579645309</td>
+<td>C(C)=CC(C)=CC(C)=CC(C)=CC(C)=CC=CC=CC(C)C(O)CC(=O)C(C)=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>cxmD&#8594cxmE&#8594cxmA&#8594cxmB&#8594cxmC</td>
+<td>0.6032883267575287</td>
+<td>C(C)=CC=CC=CC(C)C(O)CC(=O)C(C)=CC(C)=CC(C)=CC(C)=CC(C)=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>cxmC&#8594cxmD&#8594cxmE&#8594cxmB&#8594cxmA</td>
+<td>0.5791233578363226</td>
+<td>C(C)=CC(C)=CC=CC=CC(C)=CC(C)=CC(C)=CC(C)C(O)CC(=O)C(C)=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>cxmE&#8594cxmA&#8594cxmB&#8594cxmC&#8594cxmD</td>
+<td>0.5757910256051829</td>
+<td>C=CC=CC(C)C(O)CC(=O)C(C)=CC(C)=CC(C)=CC(C)=CC(C)=CC(C)=C</td>
+</tr>
+<tr>
+<td>10</td>
+<td>cxmA&#8594cxmC&#8594cxmD&#8594cxmE&#8594cxmB</td>
+<td>0.574850499758209</td>
+<td>C(C)C(O)CC(=O)C(C)=CC(C)=CC(C)=CC=CC=CC(C)=CC(C)=CC(C)=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_155</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001358/'>BGC0001358</a></td>
+<td>leucinostatin a</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/27416025'>27416025</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">VFPBJ_02532&#8594VFPBJ_02527&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_155">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_155" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>VFPBJ_02532&#8594VFPBJ_02527</td>
+<td>0.498756753099318</td>
+<td>C([*])C(-O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>VFPBJ_02527&#8594VFPBJ_02532</td>
+<td>0.3430393689664487</td>
+<td>C([*])C(-O)C([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_156</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000085/'>BGC0000085</a></td>
+<td>lankamycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/12791134'>12791134</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">lkmAI&#8594lkmAII&#8594lkmAIII&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_156">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_156" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>lkmAI&#8594lkmAII&#8594lkmAIII</td>
+<td>0.5887149170650797</td>
+<td>C(C)C(O)C(C)C(O)C([*])C(-O)C(C)CC(C)C(O)C(C)C(O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>lkmAIII&#8594lkmAI&#8594lkmAII</td>
+<td>0.5003630316100811</td>
+<td>C(C)C(O)C(C)C(O)C(C)C(O)C(C)C(O)C([*])C(-O)C(C)CC(C)C(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>lkmAII&#8594lkmAIII&#8594lkmAI</td>
+<td>0.4826707939617111</td>
+<td>C(C)CC(C)C(O)C(C)C(O)C(C)C(O)C(C)C(O)C(C)C(O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>lkmAII&#8594lkmAI&#8594lkmAIII</td>
+<td>0.40480223738914217</td>
+<td>C(C)CC(C)C(O)C(C)C(O)C(C)C(O)C([*])C(-O)C(C)C(O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>lkmAI&#8594lkmAIII&#8594lkmAII</td>
+<td>0.29744735531048316</td>
+<td>C(C)C(O)C(C)C(O)C([*])C(-O)C(C)C(O)C(C)C(O)C(C)CC(C)C(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>lkmAIII&#8594lkmAII&#8594lkmAI</td>
+<td>0.2782448929139004</td>
+<td>C(C)C(O)C(C)C(O)C(C)CC(C)C(O)C(C)C(O)C(C)C(O)C([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_157</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001773/'>BGC0001773</a></td>
+<td>selvamicin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/27803316'>27803316</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">selB&#8594selC&#8594selI&#8594selJ&#8594selA&#8594selK&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_157">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_157" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>selB&#8594selC&#8594selI&#8594selJ&#8594selA&#8594selK</td>
+<td>0.6742902160727303</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>selA&#8594selB&#8594selC&#8594selI&#8594selJ&#8594selK</td>
+<td>0.6593878600814376</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>selA&#8594selK&#8594selB&#8594selC&#8594selI&#8594selJ</td>
+<td>0.6323331980841358</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>selK&#8594selA&#8594selB&#8594selC&#8594selI&#8594selJ</td>
+<td>0.6239626175474218</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>selB&#8594selC&#8594selI&#8594selJ&#8594selK&#8594selA</td>
+<td>0.6218180694297238</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>selA&#8594selB&#8594selJ&#8594selI&#8594selC&#8594selK</td>
+<td>0.6195117755066382</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>selJ&#8594selB&#8594selC&#8594selI&#8594selA&#8594selK</td>
+<td>0.6189786957587977</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>selK&#8594selB&#8594selC&#8594selI&#8594selJ&#8594selA</td>
+<td>0.6158236962030238</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>selB&#8594selC&#8594selJ&#8594selI&#8594selA&#8594selK</td>
+<td>0.6135074555685851</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>selA&#8594selK&#8594selB&#8594selJ&#8594selI&#8594selC</td>
+<td>0.6132604083075507</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_158</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001503/'>BGC0001503</a></td>
+<td>amycolamycin a</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/29090939'>29090939</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ATV95616.1&#8594ATV95639.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_158">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_158" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ATV95616.1&#8594ATV95639.1</td>
+<td>0.40871393250180443</td>
+<td>C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ATV95639.1&#8594ATV95616.1</td>
+<td>0.2447854438597558</td>
+<td>C=CC([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_159</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000142/'>BGC0000142</a></td>
+<td>salinilactam</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/17563368'>17563368</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">Strop_2773&#8594Strop_2768&#8594Strop_2781&#8594Strop_2780&#8594Strop_2779&#8594Strop_2778&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_159">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_159" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Strop_2773&#8594Strop_2768&#8594Strop_2781&#8594Strop_2780&#8594Strop_2779&#8594Strop_2778</td>
+<td>0.7069701558038817</td>
+<td>CC(=O)C=CC(C)=CC(C)=CC=CC=CC=CCC(O)CC(O)C(C)C(O)C=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Strop_2768&#8594Strop_2781&#8594Strop_2780&#8594Strop_2779&#8594Strop_2778&#8594Strop_2773</td>
+<td>0.7006750115746192</td>
+<td>C=CC(C)=CC(C)=CC=CC=CC=CCC(O)CC(O)C(C)C(O)C=CC=CCC(=O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Strop_2780&#8594Strop_2779&#8594Strop_2778&#8594Strop_2773&#8594Strop_2768&#8594Strop_2781</td>
+<td>0.6752580450256314</td>
+<td>CC(O)CC(O)C(C)C(O)C=CC=CCC(=O)C=CC(C)=CC(C)=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Strop_2778&#8594Strop_2773&#8594Strop_2768&#8594Strop_2781&#8594Strop_2780&#8594Strop_2779</td>
+<td>0.6489898162578432</td>
+<td>C=CC=CCC(=O)C=CC(C)=CC(C)=CC=CC=CC=CCC(O)CC(O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Strop_2780&#8594Strop_2779&#8594Strop_2778&#8594Strop_2768&#8594Strop_2781&#8594Strop_2773</td>
+<td>0.6386915008485957</td>
+<td>CC(O)CC(O)C(C)C(O)C=CC=CC=CC(C)=CC(C)=CC=CC=CC=CCC(=O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Strop_2773&#8594Strop_2768&#8594Strop_2781&#8594Strop_2779&#8594Strop_2780&#8594Strop_2778</td>
+<td>0.6354233382815593</td>
+<td>CC(=O)C=CC(C)=CC(C)=CC=CC=CC=CC(C)C(O)CC(O)CC(O)C=CC=C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Strop_2773&#8594Strop_2768&#8594Strop_2781&#8594Strop_2778&#8594Strop_2780&#8594Strop_2779</td>
+<td>0.6348306968295979</td>
+<td>CC(=O)C=CC(C)=CC(C)=CC=CC=CC=CC=CC=CCC(O)CC(O)C(C)C(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Strop_2768&#8594Strop_2781&#8594Strop_2773&#8594Strop_2780&#8594Strop_2779&#8594Strop_2778</td>
+<td>0.6327138454942098</td>
+<td>C=CC(C)=CC(C)=CC=CC=CC=CCC(=O)CC(O)CC(O)C(C)C(O)C=CC=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Strop_2779&#8594Strop_2778&#8594Strop_2773&#8594Strop_2768&#8594Strop_2781&#8594Strop_2780</td>
+<td>0.6326787723540225</td>
+<td>C(C)C(O)C=CC=CCC(=O)C=CC(C)=CC(C)=CC=CC=CC=CCC(O)CC(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Strop_2768&#8594Strop_2781&#8594Strop_2779&#8594Strop_2780&#8594Strop_2778&#8594Strop_2773</td>
+<td>0.6291281940522969</td>
+<td>C=CC(C)=CC(C)=CC=CC=CC=CC(C)C(O)CC(O)CC(O)C=CC=CCC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_160</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001520/'>BGC0001520</a></td>
+<td>aurantinins b-d</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/27806569'>27806569</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">BG616_04310&#8594BG616_04330&#8594BG616_04350&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_160">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_160" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>BG616_04310&#8594BG616_04330&#8594BG616_04350</td>
+<td>0.4673120740104324</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>BG616_04310&#8594BG616_04350&#8594BG616_04330</td>
+<td>0.46589995279934004</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>BG616_04330&#8594BG616_04310&#8594BG616_04350</td>
+<td>0.45221805015716304</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>BG616_04330&#8594BG616_04350&#8594BG616_04310</td>
+<td>0.42921110312226063</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>BG616_04350&#8594BG616_04310&#8594BG616_04330</td>
+<td>0.41928515550057566</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>BG616_04350&#8594BG616_04330&#8594BG616_04310</td>
+<td>0.36750228197022683</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_161</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000076/'>BGC0000076</a></td>
+<td>hypothemycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/18567690'>18567690</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">hpm8&#8594hpm3&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_161">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_161" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>hpm8&#8594hpm3</td>
+<td>0.38658528957042476</td>
+<td>C([*])C(-O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>hpm3&#8594hpm8</td>
+<td>0.3715641989895178</td>
+<td>CC(=O)C([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_162</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000098/'>BGC0000098</a></td>
+<td>monacolin k</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/28559732'>28559732</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/28070827'>28070827</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/19968298'>19968298</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/19693441'>19693441</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/18578535'>18578535</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">mkB&#8594mkA&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_162">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_162" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>mkB&#8594mkA</td>
+<td>0.4187898683619158</td>
+<td>CCC([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>mkA&#8594mkB</td>
+<td>0.3546722574281833</td>
+<td>C([*])C(-O)CC</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_163</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001246/'>BGC0001246</a></td>
+<td>trans-resorcylide</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/24597618'>24597618</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">resS1&#8594resS2&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_163">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_163" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>resS1&#8594resS2</td>
+<td>0.4907029427240668</td>
+<td>C([*])C(-O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>resS2&#8594resS1</td>
+<td>0.3318402529603208</td>
+<td>CC(=O)C([*])C(-O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_164</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001537/'>BGC0001537</a></td>
+<td>butyrolactol a</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/26337155'>26337155</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">APK71_RS29950&#8594APK71_RS29920&#8594APK71_RS29935&#8594APK71_RS29940&#8594APK71_RS29945&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_164">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_164" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>APK71_RS29950&#8594APK71_RS29920&#8594APK71_RS29935&#8594APK71_RS29940&#8594APK71_RS29945</td>
+<td>0.5937431090607403</td>
+<td>CC(O)CC(O)C=CCC(O)C(C)CC(C)C(=O)CCC=CC=CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>APK71_RS29920&#8594APK71_RS29935&#8594APK71_RS29940&#8594APK71_RS29945&#8594APK71_RS29950</td>
+<td>0.5796325810663716</td>
+<td>C=CCC(O)C(C)CC(C)C(=O)CCC=CC=CC([*])C(-O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>APK71_RS29920&#8594APK71_RS29950&#8594APK71_RS29935&#8594APK71_RS29940&#8594APK71_RS29945</td>
+<td>0.5693302353012124</td>
+<td>C=CCC(O)C(C)CC(C)C(=O)CC(O)CC(O)CCC=CC=CC([*])C(-O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>APK71_RS29935&#8594APK71_RS29940&#8594APK71_RS29945&#8594APK71_RS29920&#8594APK71_RS29950</td>
+<td>0.549215373984492</td>
+<td>CCC=CC=CC([*])C(-O)C=CCC(O)C(C)CC(C)C(=O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>APK71_RS29945&#8594APK71_RS29950&#8594APK71_RS29920&#8594APK71_RS29935&#8594APK71_RS29940</td>
+<td>0.5412659227000287</td>
+<td>C([*])C(-O)CC(O)CC(O)C=CCC(O)C(C)CC(C)C(=O)CCC=CC=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>APK71_RS29945&#8594APK71_RS29935&#8594APK71_RS29940&#8594APK71_RS29920&#8594APK71_RS29950</td>
+<td>0.5350824531028044</td>
+<td>C([*])C(-O)CCC=CC=CC=CCC(O)C(C)CC(C)C(=O)CC(O)CC(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>APK71_RS29950&#8594APK71_RS29935&#8594APK71_RS29940&#8594APK71_RS29945&#8594APK71_RS29920</td>
+<td>0.532304907955584</td>
+<td>CC(O)CC(O)CCC=CC=CC([*])C(-O)C=CCC(O)C(C)CC(C)C(=O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>APK71_RS29935&#8594APK71_RS29940&#8594APK71_RS29945&#8594APK71_RS29950&#8594APK71_RS29920</td>
+<td>0.5305936357245702</td>
+<td>CCC=CC=CC([*])C(-O)CC(O)CC(O)C=CCC(O)C(C)CC(C)C(=O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>APK71_RS29920&#8594APK71_RS29950&#8594APK71_RS29945&#8594APK71_RS29935&#8594APK71_RS29940</td>
+<td>0.5265017209432505</td>
+<td>C=CCC(O)C(C)CC(C)C(=O)CC(O)CC(O)C([*])C(-O)CCC=CC=C</td>
+</tr>
+<tr>
+<td>10</td>
+<td>APK71_RS29945&#8594APK71_RS29920&#8594APK71_RS29935&#8594APK71_RS29940&#8594APK71_RS29950</td>
+<td>0.5257311318839644</td>
+<td>C([*])C(-O)C=CCC(O)C(C)CC(C)C(=O)CCC=CC=CCC(O)CC(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_165</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001296/'>BGC0001296</a></td>
+<td>streptazone e</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/26403163'>26403163</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">stzD&#8594stzC&#8594stzB&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_165">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_165" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>stzD&#8594stzC&#8594stzB</td>
+<td>0.38578941828880203</td>
+<td>CC(=O)C=CC=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>stzD&#8594stzB&#8594stzC</td>
+<td>0.3583003974722697</td>
+<td>CC(=O)C=CC=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>stzC&#8594stzB&#8594stzD</td>
+<td>0.3476835959760178</td>
+<td>C=CC=CC=CCC(=O)C=CC=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>stzB&#8594stzD&#8594stzC</td>
+<td>0.3423010155721571</td>
+<td>C=CCC(=O)C=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>stzC&#8594stzD&#8594stzB</td>
+<td>0.31631903433113717</td>
+<td>C=CC=CCC(=O)C=CC=CC=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>stzB&#8594stzC&#8594stzD</td>
+<td>0.30642980760602523</td>
+<td>C=CC=CC=CCC(=O)C=CC=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_166</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000134/'>BGC0000134</a></td>
+<td>radicicol</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/18567690'>18567690</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">Rdc1&#8594Rdc5&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_166">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_166" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Rdc1&#8594Rdc5</td>
+<td>0.4113065917943761</td>
+<td>CC(=O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Rdc5&#8594Rdc1</td>
+<td>0.3415126025481875</td>
+<td>C([*])C(-O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_167</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000047/'>BGC0000047</a></td>
+<td>dihydrochalcomycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/17053005'>17053005</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">gerSIII&#8594gerSIV&#8594gerSV&#8594gerSI&#8594gerSII&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_167">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_167" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>gerSIII&#8594gerSIV&#8594gerSV&#8594gerSI&#8594gerSII</td>
+<td>0.7809293751625075</td>
+<td>C(C)C(O)C(C)CC(C)C(O)CC(=O)C([*])C(-O)C(C)C(O)C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>gerSI&#8594gerSII&#8594gerSIII&#8594gerSIV&#8594gerSV</td>
+<td>0.7732423153294554</td>
+<td>C([*])C(-O)C(C)C(O)C([*])C(-O)C=CC(C)C(O)C(C)CC(C)C(O)CC(=O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>gerSII&#8594gerSIII&#8594gerSIV&#8594gerSV&#8594gerSI</td>
+<td>0.670999789435347</td>
+<td>C=CC(C)C(O)C(C)CC(C)C(O)CC(=O)C([*])C(-O)C(C)C(O)C([*])C(-O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>gerSIV&#8594gerSV&#8594gerSI&#8594gerSII&#8594gerSIII</td>
+<td>0.6471498502795583</td>
+<td>C(C)C(O)CC(=O)C([*])C(-O)C(C)C(O)C([*])C(-O)C=CC(C)C(O)C(C)C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>gerSV&#8594gerSI&#8594gerSII&#8594gerSIII&#8594gerSIV</td>
+<td>0.6373094054916054</td>
+<td>CC(=O)C([*])C(-O)C(C)C(O)C([*])C(-O)C=CC(C)C(O)C(C)CC(C)C(O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>gerSI&#8594gerSII&#8594gerSIV&#8594gerSV&#8594gerSIII</td>
+<td>0.6090447954117333</td>
+<td>C([*])C(-O)C(C)C(O)C([*])C(-O)C=CC(C)C(O)CC(=O)C(C)C(O)C(C)C</td>
+</tr>
+<tr>
+<td>7</td>
+<td>gerSV&#8594gerSIII&#8594gerSIV&#8594gerSI&#8594gerSII</td>
+<td>0.5979250519997783</td>
+<td>CC(=O)C(C)C(O)C(C)CC(C)C(O)C([*])C(-O)C(C)C(O)C([*])C(-O)C=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>gerSII&#8594gerSI&#8594gerSIII&#8594gerSIV&#8594gerSV</td>
+<td>0.590904898343987</td>
+<td>C=CC([*])C(-O)C(C)C(O)C([*])C(-O)C(C)C(O)C(C)CC(C)C(O)CC(=O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>gerSIII&#8594gerSI&#8594gerSII&#8594gerSIV&#8594gerSV</td>
+<td>0.5748596534831171</td>
+<td>C(C)C(O)C(C)CC([*])C(-O)C(C)C(O)C([*])C(-O)C=CC(C)C(O)CC(=O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>gerSI&#8594gerSIII&#8594gerSIV&#8594gerSV&#8594gerSII</td>
+<td>0.5744723504414305</td>
+<td>C([*])C(-O)C(C)C(O)C([*])C(-O)C(C)C(O)C(C)CC(C)C(O)CC(=O)C=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_168</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000018/'>BGC0000018</a></td>
+<td>angolamycin</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/'></a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">angAV&#8594angAI&#8594angAII&#8594angAIII&#8594angAIV&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_168">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_168" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>angAV&#8594angAI&#8594angAII&#8594angAIII&#8594angAIV</td>
+<td>0.6284521225175296</td>
+<td>CC(O)C(C)C(=O)C(C)C(O)C(C)=CC=CC(C)C(O)C(CC)CC(C)C(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>angAI&#8594angAII&#8594angAIII&#8594angAIV&#8594angAV</td>
+<td>0.6137374498657415</td>
+<td>C(C)C(=O)C(C)C(O)C(C)=CC=CC(C)C(O)C(CC)CC(C)C(O)CC(O)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>angAIII&#8594angAIV&#8594angAV&#8594angAI&#8594angAII</td>
+<td>0.5690262882996762</td>
+<td>C(C)C(O)C(CC)CC(C)C(O)CC(O)C(C)C(=O)C(C)C(O)C(C)=CC=C</td>
+</tr>
+<tr>
+<td>4</td>
+<td>angAIII&#8594angAV&#8594angAI&#8594angAII&#8594angAIV</td>
+<td>0.5477983682482969</td>
+<td>C(C)C(O)C(CC)CCC(O)C(C)C(=O)C(C)C(O)C(C)=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>angAIV&#8594angAV&#8594angAI&#8594angAII&#8594angAIII</td>
+<td>0.5413369932314275</td>
+<td>C(C)C(O)CC(O)C(C)C(=O)C(C)C(O)C(C)=CC=CC(C)C(O)C(CC)C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>angAIII&#8594angAIV&#8594angAI&#8594angAII&#8594angAV</td>
+<td>0.5410972546274225</td>
+<td>C(C)C(O)C(CC)CC(C)C(O)C(C)C(=O)C(C)C(O)C(C)=CC=CCC(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>angAV&#8594angAI&#8594angAIII&#8594angAIV&#8594angAII</td>
+<td>0.5404163292194438</td>
+<td>CC(O)C(C)C(=O)C(C)C(O)C(C)=CC(C)C(O)C(CC)CC(C)C(O)C=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>angAIV&#8594angAI&#8594angAII&#8594angAIII&#8594angAV</td>
+<td>0.5381022183502636</td>
+<td>C(C)C(O)C(C)C(=O)C(C)C(O)C(C)=CC=CC(C)C(O)C(CC)CCC(O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>angAII&#8594angAIII&#8594angAIV&#8594angAV&#8594angAI</td>
+<td>0.5278187120948543</td>
+<td>C=CC(C)C(O)C(CC)CC(C)C(O)CC(O)C(C)C(=O)C(C)C(O)C(C)=C</td>
+</tr>
+<tr>
+<td>10</td>
+<td>angAI&#8594angAII&#8594angAIII&#8594angAV&#8594angAIV</td>
+<td>0.5258903932082066</td>
+<td>C(C)C(=O)C(C)C(O)C(C)=CC=CC(C)C(O)C(CC)CCC(O)C(C)C(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_169</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000023/'>BGC0000023</a></td>
+<td>aurafuron a</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/17919655'>17919655</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">aufI&#8594aufG&#8594aufC&#8594aufE&#8594aufF&#8594aufD&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_169">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_169" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>aufI&#8594aufG&#8594aufC&#8594aufE&#8594aufF&#8594aufD</td>
+<td>0.46992920582157505</td>
+<td>C(C)C(=O)C(C)CC(C)C(=O)C(C)=CC(OC)C(O)C=CC(C)C(O)CC(O)C(C)=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>aufI&#8594aufE&#8594aufG&#8594aufC&#8594aufF&#8594aufD</td>
+<td>0.46964383162392365</td>
+<td>C(C)C(=O)C(C)CC(OC)C(O)C(C)C(=O)C(C)=CC=CC(C)C(O)CC(O)C(C)=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>aufI&#8594aufG&#8594aufD&#8594aufF&#8594aufC&#8594aufE</td>
+<td>0.46938513629636036</td>
+<td>C(C)C(=O)C(C)CC(C)C(=O)CC(O)C(C)=CC=CC(C)C(O)C(C)=CC(OC)C(O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>aufD&#8594aufF&#8594aufI&#8594aufG&#8594aufC&#8594aufE</td>
+<td>0.46839837375752846</td>
+<td>CC(O)C(C)=CC=CC(C)C(O)C(C)C(=O)C(C)CC(C)C(=O)C(C)=CC(OC)C(O)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>aufC&#8594aufE&#8594aufD&#8594aufF&#8594aufI&#8594aufG</td>
+<td>0.46764278945945986</td>
+<td>C(C)=CC(OC)C(O)CC(O)C(C)=CC=CC(C)C(O)C(C)C(=O)C(C)CC(C)C(=O)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>aufC&#8594aufG&#8594aufD&#8594aufF&#8594aufI&#8594aufE</td>
+<td>0.4669682071742397</td>
+<td>C(C)=CC(C)C(=O)CC(O)C(C)=CC=CC(C)C(O)C(C)C(=O)C(C)CC(OC)C(O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>aufI&#8594aufG&#8594aufC&#8594aufE&#8594aufD&#8594aufF</td>
+<td>0.466872001067488</td>
+<td>C(C)C(=O)C(C)CC(C)C(=O)C(C)=CC(OC)C(O)CC(O)C(C)=CC=CC(C)C(O)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>aufI&#8594aufE&#8594aufF&#8594aufD&#8594aufC&#8594aufG</td>
+<td>0.4666219439578569</td>
+<td>C(C)C(=O)C(C)CC(OC)C(O)C=CC(C)C(O)CC(O)C(C)=CC(C)=CC(C)C(=O)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>aufI&#8594aufE&#8594aufC&#8594aufF&#8594aufD&#8594aufG</td>
+<td>0.4661894715894809</td>
+<td>C(C)C(=O)C(C)CC(OC)C(O)C(C)=CC=CC(C)C(O)CC(O)C(C)=CC(C)C(=O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>aufC&#8594aufD&#8594aufF&#8594aufI&#8594aufE&#8594aufG</td>
+<td>0.4649890280773663</td>
+<td>C(C)=CCC(O)C(C)=CC=CC(C)C(O)C(C)C(=O)C(C)CC(OC)C(O)C(C)C(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_170</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000173/'>BGC0000173</a></td>
+<td>bongkrekic acid</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/22999884'>22999884</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/20237660'>20237660</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/4718704'>4718704</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/18510943'>18510943</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/10028245'>10028245</a>, <a href='https://www.ncbi.nlm.nih.gov/pubmed/1276139'>1276139</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">bonJ&#8594bonK&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_170">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_170" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>bonJ&#8594bonK</td>
+<td>0.6419134312715995</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>bonK&#8594bonJ</td>
+<td>0.5431503319259278</td>
+<td>CC(=O)CC(=O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_171</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0001491/'>BGC0001491</a></td>
+<td>67-121c</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/28383583'>28383583</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">BG844_00075&#8594BG844_00060&#8594BG844_00065&#8594BG844_00045&#8594BG844_00050&#8594BG844_00055&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_171">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_171" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>BG844_00075&#8594BG844_00060&#8594BG844_00065&#8594BG844_00045&#8594BG844_00050&#8594BG844_00055</td>
+<td>0.6584099669177119</td>
+<td>CC(=O)CC(O)C([*])C(-O)C(C)=CC=CC=CC=CC=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(=O)CC(O)C=CC=CC=CCC(O)C=C</td>
+</tr>
+<tr>
+<td>2</td>
+<td>BG844_00075&#8594BG844_00065&#8594BG844_00060&#8594BG844_00045&#8594BG844_00050&#8594BG844_00055</td>
+<td>0.6389181004195995</td>
+<td>CC(=O)C=CC=CC=CC=CC=CC=CCC(O)C([*])C(-O)C(C)=CC=CCC(O)C(C)C(O)CC(O)CC(=O)CC(O)C=CC=CC=CCC(O)C=C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>BG844_00065&#8594BG844_00060&#8594BG844_00045&#8594BG844_00050&#8594BG844_00055&#8594BG844_00075</td>
+<td>0.6249430044873923</td>
+<td>C=CC=CC=CC=CC=CC=CCC(O)C([*])C(-O)C(C)=CC=CCC(O)C(C)C(O)CC(O)CC(=O)CC(O)C=CC=CC=CCC(O)C=CCC(=O)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>BG844_00075&#8594BG844_00060&#8594BG844_00045&#8594BG844_00050&#8594BG844_00055&#8594BG844_00065</td>
+<td>0.6241461194812004</td>
+<td>CC(=O)CC(O)C([*])C(-O)C(C)=CC=CCC(O)C(C)C(O)CC(O)CC(=O)CC(O)C=CC=CC=CCC(O)C=CC=CC=CC=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>5</td>
+<td>BG844_00065&#8594BG844_00045&#8594BG844_00050&#8594BG844_00055&#8594BG844_00075&#8594BG844_00060</td>
+<td>0.6236634759775027</td>
+<td>C=CC=CC=CC=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(=O)CC(O)C=CC=CC=CCC(O)C=CCC(=O)CC(O)C([*])C(-O)C(C)=C</td>
+</tr>
+<tr>
+<td>6</td>
+<td>BG844_00060&#8594BG844_00065&#8594BG844_00045&#8594BG844_00050&#8594BG844_00055&#8594BG844_00075</td>
+<td>0.6164431029391497</td>
+<td>CC(O)C([*])C(-O)C(C)=CC=CC=CC=CC=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(=O)CC(O)C=CC=CC=CCC(O)C=CCC(=O)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>BG844_00045&#8594BG844_00050&#8594BG844_00055&#8594BG844_00075&#8594BG844_00060&#8594BG844_00065</td>
+<td>0.6147639264952017</td>
+<td>C=CCC(O)C(C)C(O)CC(O)CC(=O)CC(O)C=CC=CC=CCC(O)C=CCC(=O)CC(O)C([*])C(-O)C(C)=CC=CC=CC=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>8</td>
+<td>BG844_00060&#8594BG844_00045&#8594BG844_00050&#8594BG844_00055&#8594BG844_00075&#8594BG844_00065</td>
+<td>0.6139473120767477</td>
+<td>CC(O)C([*])C(-O)C(C)=CC=CCC(O)C(C)C(O)CC(O)CC(=O)CC(O)C=CC=CC=CCC(O)C=CCC(=O)C=CC=CC=CC=CC=CC=C</td>
+</tr>
+<tr>
+<td>9</td>
+<td>BG844_00050&#8594BG844_00055&#8594BG844_00075&#8594BG844_00060&#8594BG844_00065&#8594BG844_00045</td>
+<td>0.6095999587177097</td>
+<td>C=CC=CC=CCC(O)C=CCC(=O)CC(O)C([*])C(-O)C(C)=CC=CC=CC=CC=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(=O)CC(O)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>BG844_00055&#8594BG844_00075&#8594BG844_00060&#8594BG844_00065&#8594BG844_00045&#8594BG844_00050</td>
+<td>0.6023729966190577</td>
+<td>C=CCC(O)C=CCC(=O)CC(O)C([*])C(-O)C(C)=CC=CC=CC=CC=CC=CC=CC=CCC(O)C(C)C(O)CC(O)CC(=O)CC(O)C=CC=C</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr data-status='predicted'>
+<td>BGC_172</td>
+<td><a href='https://mibig.secondarymetabolites.org/repository/BGC0000049/'>BGC0000049</a></td>
+<td>e-492</td>
+<td>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/16724457'>16724457</a>
+</td>
+<td><span class='label label-danger'>Predicted</span></td>
+<td class="text-left">ABB88535.1&#8594ABB88536.1&nbsp;&nbsp;&nbsp;<button class="btn btn-sm btn-light" id="show_172">+</button></td>
+</tr>
+<tr data-status="predicted">
+<td colspan="4">
+<div id="extra_172" style="display: none;">
+<table class="sub-table table-hover">
+<thead class="thead-light">
+
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Score</th>
+<th>SMILES&nbsp;String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ABB88535.1&#8594ABB88536.1</td>
+<td>0.8746322407128866</td>
+<td>CCC=CC(C)C(O)C(CC)C(O)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ABB88536.1&#8594ABB88535.1</td>
+<td>0.3811423982404212</td>
+<td>C(CC)C(O)CCC=CC(C)C(O)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>

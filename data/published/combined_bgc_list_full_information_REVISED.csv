@@ -1,0 +1,94 @@
+BGC ID,PKS PATHWAY ABBREV,NAME OF PRODUCT,YEAR,REFERENCE (PMID),SPECIES,TAXONOMY,SEQUENCE,GENE ORDER IN THE PATHWAY
+BGC_1,averm 001-004,Avermectin,1999,10449723,Streptomyces avermitilis,Actinobacteria,BAA84474;BAA84475;BAA84478;BAA84479,aveA1;aveA2;aveA3;aveA4
+BGC_2,myxot 001-006,Myxothiazol,1999,10601310,Stigmatella aurantiaca DW4/3-1,Proteobacteria,AF188287,mtaB;mtaC;mtaD;mtaE;mtaF;mtaG
+BGC_3,epoth 001-006,Epothilone,2000,10649995,Sorangium cellulosum,Proteobacteria,AF217189,epoA;epoB;epoC;epoD;epoE;epoF
+BGC_4,ascom 001-003,Ascomycin,2000,10863099,Streptomyces hygroscopicus subsp. ascomyceticus,Actinobacteria,AF235504,fkbB;fkbC;fkbA
+BGC_5,nysta 001-006,Nystatin,2000,10873841,Streptomyces noursei ATCC 11455,Actinobacteria,AF263912,nysA;nysB;nysC;nysI;nysJ;nysK
+BGC_6,olean 001-003,Oleandomycin,2000,10908114,Streptomyces antibioticus,Actinobacteria,AF220951,oleAI;oleAII
+BGC_7,megal 001-003,Megalomicin,2000,10972798,Micromonospora megalomicea subsp. nigra,Actinobacteria,AF263245,megAI;megAII;megAIII
+BGC_8,pimar 001-005,Pimaricin,2000,11094342,Streptomyces natalensis,Actinobacteria,AJ278573,pimS0;pimS1;pimS2;pimS3;pimS4
+BGC_9,myxal 001-006,Myxalamide,2001,11182319,Stigmatella aurantiaca,Proteobacteria,AF319998,mxaF;mxaE;mxaD;mxaC;mxaB1;mxaB2
+BGC_10,rifam 001-005,Rifamycin,2001,11278540,Amycolatopsis mediterranei S699,Actinobacteria,AF040570,rifA;rifB;rifC;rifD;rifE
+BGC_11,spino 001-005,Spinosad,2001,11358695,Saccharopolyspora spinosa,Actinobacteria,AY007564,spnA;spnB;spnC;spnD;spnE
+BGC_12,ampho 001-006,Amphotericin B,2001,11451671,Streptomyces nodosus,Actinobacteria,AF357202,amphA;amphB;amphC;amphI;amphJ;amphK
+BGC_13,stigm 001-009,Stigmatellin,2002,11809757,Stigmatella aurantiaca Sg a15,Proteobacteria,AJ421825,stiA;stiB;stiC;stiD;stiE;stiF;stiG;stiH;stiJ
+BGC_14,sorap 001-002,Soraphen,2002,12039053,Sorangium cellulosum,Proteobacteria,U24241,sorA;sorB
+BGC_15,ansam 001-004,Ansamitocin,2002,12060743,Actinosynnema pretiosum subsp. auranticum,Actinobacteria,AF453501,asmA;asmB;asmC;asmD
+BGC_16,mycin 001-005,Mycinamicin,2003,12583909,Micromonospora griseorubida,Actinobacteria,AB089954,mycAI;mycAII;mycAIII;mycAIV;mycAV
+BGC_17,gelda 001-003,Geldanamycin,2003,12586396,Streptomyces hygroscopicus,Actinobacteria,AY179507,gdmAI;gdmAII;gdmAIII
+BGC_18,nanch 001-011,Nanchangmycin,2003,12770825,Streptomyces nanchangensis,Actinobacteria,AF521085,nanA1;nanA2;nanA3;nanA4;nanA5;nanA6;nanA7;nanA8;nanA9;nanA10;nanA11
+BGC_19,phosl 001-006,Phoslactomycin,2003,12819191,Streptomyces sp. HK803,Actinobacteria,AY354515,plm1;plm2-3;plm4;plm5;plm6;plm7
+BGC_20,monen 001-008,Monensin,2003,12940979,Streptomyces cinnamonensis,Actinobacteria,AF440781,monAI;monAII;monAIII;monAIV;monAV;monAVI;monAVII;monAVIII
+BGC_21,melit 001-006,Melithiazol,2003,14583260,Melittangium lichenicola,Proteobacteria,AJ557546,melB;melC;melD;melE;melF;melG
+BGC_22,fr008 001-006,FR-008,2003,14652074,Streptomyces sp. FR-008,Actinobacteria,AY310323,fscA;fscB;fscC;fscD;fscE;fscF
+BGC_23,aureo 001-003,Aureothin,2003,14700630,Streptomyces thioluteus,Actinobacteria,AJ575648,aurA;aurB;aurC
+BGC_24,mycol 001-002,Mycolactone,2004,14736915,Mycobacterium ulcerans Agy99,Actinobacteria,BX649209,mlsA1;mlsA2
+BGC_25,vicen 001-004,Vicenistatin,2004,15112997,Streptomyces halstedii,Actinobacteria,AB086653,vinP1;vinP2;vinP3;vinP4
+BGC_26,borre 001-006,Borrelidin,2004,15112998,Streptomyces parvulus,Actinobacteria,AJ580915,borA1;borA2;borA3;borA4;borA5;borA6
+BGC_27,jamai 001-012,Jamaicamide A,2004,15217615,Lyngbya majuscula,Cyanobacteria,AY522504,jamA;jamC;jamE;jamF;jamJ;jamK;jamL;jamM;jamN;jamO;jamP;jamQ
+BGC_28,eryta 001-003,Erythromycin A,2004,15257441,Aeromicrobium erythreum,Actinobacteria,AY623658,eryAI;eryAII;eryAIII
+BGC_29,curac 001-014,Curacin,2004,15332855,Lyngbya majuscula,Cyanobacteria,AY652953,curA;curB;curC;curD;curE;curF;curG;curH;curI;curJ;curK;curL;curM;curN
+BGC_30,chalc 001-005,Chalcomycin,2004,15561847,Streptomyces bikiniensis,Actinobacteria,AY509120,ChmGI;ChmGII;ChmGIII;ChmGIV;ChmGV
+BGC_31,eco02 001-009,ECO-02301,2005,15844935,Streptomyces aizunensis,Actinobacteria,AY899214,Orf9;Orf10;Orf11;Orf12;Orf13;Orf14;Orf15;Orf16;Orf17
+BGC_32,cysto 001-006,Cystothiazole A,2005,16041144,Cystobacter fuscus,Proteobacteria,AY834753,ctaB;ctaC;ctaD;ctaE;ctaF;ctaG
+BGC_33,conca 001-006,Concanomycin,2005,16207901,Streptomyces neyagawaensis,Actinobacteria,DQ149987,conA;conB;conC;conD;conE;conF
+BGC_34,rapam 001-003,Rapamycin,1995,7644502,Streptomyces rapamycinicus NRRL 5491,Actinobacteria,X86780,rapA;rapB;rapC
+BGC_35,nidda 001-005,Niddamycin,1997,9393718,Streptomyces caelestis,Actinobacteria,AF016585,nidA1;nidA2;nidA3;nidA4;nidA5
+BGC_36,pikro 001-005,Pikromycin,1998,9770448,Streptomyces venezuelae,Actinobacteria,AF079138,pikAI;pikAII;pikAIII;pikAIV;pikAV
+BGC_37,BGC0000144,Polyether Salinomycin,2012,22156425,Streptomyces albus,Actinobacteria,JN033543,SlnA1;SlnA2;SlnA3;SlnA4;SlnA5;SlnA6;SlnA7;SlnA8;SlnA9
+BGC_38,BGC0000001,abyssomicin,2011,21656887,Verrucosispora maris AB-18-032,Actinobacteria,JF752342,abyB1;abyB2;abyB3
+BGC_39,BGC0000021,apoptolidin,2011,21869849,Nocardiopsis sp. FU 40,Actinobacteria,JF819834,ApoS1;ApoS2;ApoS3;ApoS4;ApoS5;ApoS6;ApoS7;ApoS8
+BGC_40,BGC0000164,tetronomycin,2008,18404760,Streptomyces sp. NRRL 11266,Actinobacteria,AB193609,TmnA1;TmnAII;TmnAIII;TmnAIV;TmnAV
+BGC_41,BGC0000133,quartromicin,2012,23102224,Amycolatopsis orientalis,Actinobacteria,JF970188,qmnA1;qmnA2;qmnA3
+BGC_42,BGC0000060,fostriecin,2013,23352138,Streptomyces pulveraceus,Actinobacteria,HQ434551,fosA;fosB;fosC;fosD;fosE;fosF
+BGC_43,BGC0000125,pimaricin,2000,11094342,Streptomyces natalensis,Actinobacteria,AJ278573,PIMS0;PIMS1;PIMS2;PIMS3;PIMS4
+BGC_44,BGC0001299,chlorotonil,2015,26348978,Sorangium cellulosum,Proteobacteria,KT368180,ctoC;ctoD;ctoE
+BGC_45,BGC0000149,spirangien,2007,17317575,Sorangium cellulosum,Proteobacteria,AM407731,SpiD;SpiE;SpiF;SpiG;SpiH;SpiI;SpiJ
+BGC_46,BGC0000124,piericidin A1,2012,22365607,Streptomyces piomogenus,Actinobacteria,HQ840721,PieA1;PieA2;PieA3;PieA4;PieA5;PieA6
+BGC_47,BGC0000165,tiacumicin B,2010,21186805,Dactylosporangium aurantiacum subsp. hamdenensis,Actinobacteria,HQ011923,TiaA1;TiaA2;TiaA3;TiaA4
+BGC_48,BGC0000082,kijanimicin,2007,17985890,Actinomadura kijaniata,Actinobacteria,EU301739,kijS1;kijS2;kijS3;kijS4;kijS5
+BGC_49,BGC0000135,reveromycin,2011,21642985,Streptomyces sp. SN-593,Actinobacteria,AB568601,revC;revA;revB;revD
+BGC_50,BGC0000158,Tautomycetin,2009,19191560,Streptomyces griseochromogenes,Actinobacteria,EU035755,ttnA;ttnB
+BGC_51,BGC0000093,meilingmycins,2010,20348291,Streptomyces nanchangensis,Actinobacteria,FJ952082,MeiA1;MeiA2;MeiA3;MeiA4
+BGC_52,BGC0001381,brasilinolide,2015,26754528,Nocardia terpenica,Actinobacteria,KP161205,nbrK;nbrL;nbrI;nbrJ;nbrG;nbrH
+BGC_53,BGC0001293,cyclizidine,2015,26473429,Streptomyces sp. NCIB 11649,Actinobacteria,KT327068,cycG;cycF;cycE;cycD;cycC;cycB
+BGC_54,BGC0001303,lobosamide,2015,26270237,Micromonospora sp. RL09-050-HVF-A,Actinobacteria,KT209587,lobR;lobA;lobB;lobC;lobD;lobE;lobF
+BGC_55,BGC0000050,E-837,2006,16724457,Streptomyces aculeolatus,Actinobacteria,DQ272520,orf3;orf4;orf5;orf6;orf7
+BGC_56,BGC0000051,ebelactone,2013,23801186,Kitasatospora aburaviensis,Actinobacteria,KC894072,ebeA;ebeB;ebeC;ebeD;ebeE;ebeF;ebeG
+BGC_57,BGC0001396,Chalcomycins;Aldgamycins,2016,27191535,Streptomyces sp. A1(2016),Actinobacteria,KU568466,almHI;almHII;almHIII;almHIV;almHV
+BGC_58,BGC0001359,PM100117;PM100118,2016,26905289,Streptomyces caniferus,Actinobacteria,LN997801;LN997802,GonP1;GonP2;GonP3;GonP4;GonP5;GonP6;GonP7
+BGC_59,BGC0000159,tautomycin,2008,18708355,Streptomyces spiroverticillatus,Actinobacteria,EF990140,ttmJ;ttmI;ttmH
+BGC_60,BGC0001066,"Kendomycin 
+",2008,18972512,Streptomyces violaceoruber,Actinobacteria,AM992894,ken16;ken12;ken13;ken14
+BGC_61,BGC0001119,divergolide,2014,24867126,Streptomyces sp. HKI0576,Actinobacteria,HF563079,divK;divL1;divL2;divL3;divM
+BGC_62,BGC0000029,BE-14106,2009,19875084,Streptomyces sp. DSM 21069,Actinobacteria,FJ872523,becA;becC
+BGC_63,BGC0000029,BE-14106,2009,19875084,Streptomyces sp. DSM 21069,Actinobacteria,FJ872523,becB;becD;becE;becF;becG
+BGC_64,BGC0000028,Bafilomycin,2013,23362147,Streptomyces lohii,Actinobacteria,GU390405,bafAI;bafAII;bafAIII;bafAIV;bafAV
+BGC_65,BGC0000086,lasalocid,2009,19129623,Streptomyces lasaliensis,Actinobacteria,AB449340,lsd11;lsd12;lsd13;lsd14;lsd15;lsd16;lsd17
+BGC_66,BGC0000069,Gephyronic Acid,2013,24298873,Archangium violaceum Cb vi76,Proteobacteria,KF479198,gphF;gphG;gphH;gphI;gphJ
+BGC_67,BGC0000157,tautomycetin,2007,17379718,Streptomyces sp. CK4412,Actinobacteria,DQ983361,tmcA;tmcB
+BGC_68,BGC0001300,Anthracimycin,2015,26348978,Streptomyces sp. CNH365,Actinobacteria,KT368179,atcD;atcE;atcF
+BGC_69,BGC0000116,nystatin-like Pseudonocardia polyene,2009,19697072,Pseudonocardia autotrophica,Actinobacteria,EU108007,cppA;cppB;cppC;cppI;cppJ;cppK
+BGC_70,BGC0000032,calcimycin,2011,21173184,Streptomyces chartreusis NRRL 3882,Actinobacteria,HM452329,SchA1;SchA2;SchA5;SchA4
+BGC_71,BGC0000049,E-492;E-975,2006,16724457,Streptomyces sp. Eco86,Actinobacteria,AH015386,orf9;orf10;orf11;orf12
+BGC_72,BGC0000042,cremimycin,2013,24014395,Streptomyces sp. MJ635-86F5,Actinobacteria,AB818354,cmiP4;cmiP3;cmiP2
+BGC_73,BGC0000042,cremimycin,2013,24014395,Streptomyces sp. MJ635-86F5,Actinobacteria,AB818354,cmiP1;cmiP5;cmiP8;cmiP7;cmiP6
+BGC_74,BGC0000097,ML-449,2010,19854930,Streptomyces sp. MP39-85,Actinobacteria,FJ872525,mlaA1;mlaA2;mlaC
+BGC_75,BGC0000097,ML-449,2010,19854930,Streptomyces sp. MP39-85,Actinobacteria,FJ872525,mlaB;mlaD;mlaE;mlaF;mlaG
+BGC_76,BGC0000078,incednine,2013,23921821,Streptomyces sp. ML694-90F3,Actinobacteria,AB767280,idnP1;idnP2;idnP4;idnP3;idnP5
+BGC_77,BGC0000058,FD-891,2010,20589823,Streptomyces graminofaciens,Actinobacteria,AB469193,gfsA;gfsB;gfsC;gfsD;gfsE
+BGC_78,BGC0000079,indanomycin,2009,19301315,Streptomyces antibioticus,Actinobacteria,FJ545274,idmL;idmM;idmN;idmO;idmP
+BGC_79,BGC0000080,jerangolid,2006,17185223,Sorangium cellulosum,Proteobacteria,DQ897668,jerA;jerB;jerC;jerD;jerE
+BGC_80,BGC0000106,naphthomycin,2011,21614382,Streptomyces sp. CS,Actinobacteria,GQ452266,natA;natB;natC;natD;natE
+BGC_81,BGC0001288,maklamicin,2015,26505309,Micromonospora sp. GMKU326,Actinobacteria,LC021382,makA1;makA2;makA3;makA4
+BGC_82,BGC0000073,halstoctacosanolide,2006,16568718,Streptomyces halstedii,Actinobacteria,AB241068,hlsA;hlsB;hlsC;hlsD;hlsE;hlsF;hlsG
+BGC_83,BGC0000126,Pladienolide,2008,18997414,Streptomyces platensis,Actinobacteria,AB435553,pldAI;pldAII;pldAIII;pldAIV
+BGC_84,BGC0000059,oligomycin,2014,23990133,Streptomyces avermitilis,Actinobacteria,AB070940,olmA1;olmA2;olmA3;olmA4;olmA5;olmA6;olmA7
+BGC_85,BGC0000014,ambruticin,2006,17185223,Sorangium cellulosum,Proteobacteria,DQ897667,ambA;ambB;ambC;ambD;ambE;ambF;ambH
+BGC_86,BGC0001597,fluvirucin b2,2016,26818633,Actinomadura fulva subsp. indica,Actinobacteria,LC095592,flvp1;flvp2;flvp3
+BGC_87,BGC0001755,reedsmycins,2018,29914489,Streptomyces sp.,Actinobacteria,MG947597,RdmG;RdmH;RdmI;RdmJ
+BGC_88,BGC0001759,rifamorpholines,2017,28422262,Amycolatopsis sp.,Actinobacteria,MF773686,AWH12671.1;AWH12670.1;AWH12669.1;AWH12668.1;AWH12667.1;AWH12666.1;AWH12665.1;AWH12664.1
+BGC_89,BGC0001830,rosamicin,2015,25930739,Salinispora pacifica,Actinobacteria,KP997155,spr7;spr8;spr9;spr10;spr11
+BGC_90,BGC0001784,streptoseomycin,2018,29697266,Streptomyces seoulensis,Actinobacteria,MG891745,stmA;stmB;stmC
+BGC_91,BGC0001770,sceliphrolactam,2018,29371699,Streptomyces sp. SD85,Actinobacteria,KX230849,sceN;sceO;sceQ;sceR;sceS;sceT
+BGC_92,BGC0001433,argimycin PI,2017,28239372,Streptomyces argillaceus,Actinobacteria,LT615255,arppI;arppII;arppIII

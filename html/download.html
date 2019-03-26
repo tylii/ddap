@@ -1,0 +1,102 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- load custom styles-->
+    <link href="https://tylii.github.io/ddap/css/style.css" rel="stylesheet" type="text/css"> 
+    <script src="https://tylii.github.io/ddap/js/my_functions.js"></script> 
+    <title>DDAP</title>
+
+    
+</head>
+  
+<body>   
+  <div id="nav-bar"></div>
+    
+  <div class="container">
+  <h1>DDAP Database</h1>
+  <h2>Downloads</h2>
+
+  <h3>Updated in March 2019</h3>
+
+  <ol type="I">
+      <li><h4>PKS with published pathways</h4></li>
+      <ol type="i">
+       
+          <li><h4>Basic information</h4></li>
+          <p>The names/IDs of the PKS are encoded as <font color="#ed553b"><b>BGC_n</b></font>, where  <font color="#ed553b"><b>n</b></font> in a positive integer.</p>
+          <ol type="a">
+            <li><a href='https://tylii.github.io/ddap/data/published/combined_bgc_list_full_information_REVISED.csv' download="[published] PKS basic information.csv">basic information</a></li>
+          </ol>
+          
+          
+          <li><h4>PKS sequences</h4></li>
+          <p>Download PKS sequences in:</p>
+          <ol type="a">
+            <li><a href='https://tylii.github.io/ddap/data/published/combined_bgc_list_full_gene_information_REVISED.csv' download="[published] gene sequences.csv"> .csv format</a></li>
+            <li><a href='https://tylii.github.io/ddap/data/published/combined_bgc_list_full_gene_information_REVISED.fa' download="[published] gene sequences.fa"> .fasta format</a></li>
+            <li><a href='https://tylii.github.io/ddap/data/published/linker_sequences_REVISED.zip' download="[published] gene sequences bgk.zip"> .gbk format</a></li>
+
+          </ol>
+
+          <li><h4>Docking domain sequences</h4></li>
+          <p>The docking domain names are encoded as "<font color="#ed553b"><b>BGC_n</b></font>_<font color="#49afdc"><b>LINKER_k</b></font>_HC" 
+            for Heads (C-terminal DD) and "<font color="#ed553b"><b>BGC_n</b></font>_<font color="#49afdc"><b>LINKER_k</b></font>_TN" for Tails (N-terminal DD),
+              where <font color="#ed553b"><b>BGC_n</b></font> is the BGC ID (or the PKS ID), <font color="#49afdc"><b>LINKER_k</b></font> is the docking domain ID.
+            </p>
+            <p>
+              Heads: 100 AA at the C-terminus of a PKS peptide.
+              <br>Tails: 50 AA at the N-terminus of a PKS peptide.
+
+            </p>
+            <p> Heads or Tails with the same <font color="#ed553b"><b>n</b></font> are in the same pathway. 
+              <br>Heads and Tails with the same <font color="#ed553b"><b>n</b></font> and <font color="#49afdc"><b>k</b></font> are interacting DDs. 
+              <br>Heads and Tails with the same <font color="#ed553b"><b>n</b></font> but different <font color="#49afdc"><b>k</b></font> are non-interacting DDs. 
+              <br>For example, "BGC_2_LINKER_3_HC" interacts with "BGC_2_LINKER_3_TN" but not "BGC_2_LINKER_1_TN".
+            </p>
+            <p> The "basic information" file provides a mapping scheme from the above IDs to the PKS gene names. 
+              </p>
+            <ol type="a">
+              <li><a href='https://tylii.github.io/ddap/data/published/combined_bgc_list_full_linker_information_REVISED.csv' download="[published] DD sequences basic information.csv">basic information</a></li>
+              <li><a href='https://tylii.github.io/ddap/data/published/combined_bgc_list_full_linker_information_head_REVISED.fa' download="[published] DD sequences Heads.fa">
+                Head (C-terminal DD) sequences in .fasta format</a></li>
+              <li> <a href='https://tylii.github.io/ddap/data/published/combined_bgc_list_full_linker_information_tail_REVISED.fa' download="[published] DD sequences Tails.fa">
+                Tail (N-terminal DD) sequences in .fasta format</a></li>
+            </ol>
+
+      </ol>
+      <li><h4>PKS with predicted pathways</h4></li>
+      <p>MIBiG v.1.4 has 252 type I modular PKS records. After excluding PKSs with published pathways, PKSs that do no have availabel sequences and PKSs with only 1 PKS gene, 
+      we used antiSMASH + DDAP to predict pathways of the remaining 80 PKSs. A maximum of 50,000 putative pathways are kept for each PKS.</p>
+      <ol type="i">
+        <li><a href='https://tylii.github.io/ddap/data/predicted/pathway_prediction.zip' downalod="[predicted] Pathway prediction.zip">All pathway prediction results</a></li>
+      </ol>
+    </ol>
+<!--
+    <p>
+        <br><a href="/data/combined_bgc_list_full_information_REVISED.csv" download="renamed.txt"> <button type="button" class="btn btn-info">Download All</button> </a>
+    </p>
+-->
+  
+
+
+  </div>
+
+  </body>
+</html>

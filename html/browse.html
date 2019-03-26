@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- load custom styles and functions -->
+    <link href="https://tylii.github.io/ddap/css/style.css" rel="stylesheet" type="text/css"> 
+    <script src="https://tylii.github.io/ddap/js/my_functions.js"></script>
+    <title>DDAP</title>
+    
+    <style type="text/css">
+    table {
+        border-collapse: collapse;
+      }
+    </style>
+
+    <script>
+    $.ajax(
+    {url:"table1.html",
+     dataType:"text"}).done(
+        document.onload = function(data){
+        $('#load-table1').html(data);
+     });
+    </script>
+    
+    <script type="text/javascript">
+    $(document).ajaxStop(function(){ 
+        $("button[id^=show_]").click(function(event) {
+            $("#extra_" + $(this).attr('id').substr(5)).slideToggle("fast");
+            event.preventDefault();
+        });
+
+});
+    </script>
+    
+</head>
+
+<body>
+    <div id="nav-bar"></div>
+
+    
+    <!-- Some text discription -->
+    <div class="container">
+        <h1>DDAP Database</h1>
+        <h2>Browse</h2>
+        <p> This table displays all the type I PKSs records in this database.</p>
+        <p> You can use the "All", "Predicted", "Published" button to switch between all PKSs, 
+            PKS with predicted pathways and PKSs with pathways reported in published manuscripts.
+        </p>
+        <p>
+            For "predicted" pathways, you can click the "+" sign to see top 10 most likely pathways for this PKS as predicted by DDAP. 
+            The score associated with each predicted pathway indicates how likely this pathway is the true pathway. The score is always a value between 0 and 1.
+        </p>
+        <p> Docking domain sequences are not shown in this table, but availabel for downloading in the <a href='https://tylii.github.io/ddap/html/download.html'>Download</a> page.</p>
+    </div>
+
+    <!-- Load data table -->
+    <div id="load-table1"></div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+/*General content*/
+h1{
+  font: 'Raleway', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(69, 102, 173)
+}
+
+
+body{
+  background: #eeeeee;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* nav bar*/
+  .form-inline {
+      display: inline-block;
+  }
+.navbar-header.col {
+  padding: 0 !important;
+}	
+.navbar {
+  font-size: 14px;
+  background: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #d6d6d6;
+  box-shadow: 0 0 4px rgba(0,0,0,.1);		
+}
+.navbar .navbar-brand {
+  color: #555;
+  padding-left: 0;
+  font-size: 20px;
+  padding-right: 50px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+.navbar .navbar-brand b {
+  font-weight: bold;
+  color: #4b5daf;
+}
+.navbar ul.nav li {
+  font-size: 96%;
+  font-weight: bold;		
+  text-transform: uppercase;
+}
+.navbar ul.nav li.active a, .navbar ul.nav li.active a:hover, .navbar ul.nav li.active a:focus {
+    color: #4b5daf !important;
+    background: transparent !important;
+}
+.search-box {
+    position: relative;
+}
+
+.search-box input.form-control, .search-box .btn {
+  font-size: 14px;
+  border-radius: 2px !important;
+}
+.search-box .input-group-btn {
+  padding-left: 4px;		
+}
+.search-box input.form-control:focus {
+  border-color: #4b5daf;
+  box-shadow: 0 0 8px rgba(240,79,1,0.2);
+}
+.search-box .btn-primary, .search-box .btn-primary:active {
+  font-weight: bold;
+  background: #4b5daf;
+  border-color: #9e9e9e;
+  text-transform: uppercase;
+  min-width: 90px;
+}
+.search-box .btn-primary:focus {
+  outline: none;
+  background: #5670b8;
+  box-shadow: 0 0 8px rgba(240,79,1,0.2);
+}
+.search-box .btn span {
+  transform: scale(0.9);
+  display: inline-block;
+}
+.navbar .nav-item i {
+  font-size: 18px;
+}
+.navbar .dropdown-item i {
+  font-size: 16px;
+  min-width: 22px;
+}
+.navbar .nav-item.open > a {
+  background: none !important;
+}
+.navbar .dropdown-menu {
+  border-radius: 1px;
+  border-color: #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu li a {
+  color: #777;
+  padding: 8px 20px;
+  line-height: normal;
+  font-size: 14px;
+}
+.navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a:active {
+  color: #333;
+}
+.navbar .navbar-form {
+  border: none;
+}
+@media (min-width: 992px){
+  .form-inline .input-group .form-control {
+    width: 225px;			
+  }
+}
+@media (max-width: 992px){
+  .form-inline {
+    display: block;
+  }
+}
+
+/* table wrapper*/
+body {
+      color: #566787;
+      background: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+.table-wrapper {
+      width: 1100px;
+      background: #fff;
+      padding: 0px 0px 0px;
+      margin: 30px auto;
+      -webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.25);
+              box-shadow: 0 0 1px 0 rgba(0,0,0,.25);
+
+  }
+.table-title .btn-group {
+  float: left;
+}
+.table-title .btn {
+  min-width: 50px;
+  border-radius: 2px;
+  border: none;
+  padding: 6px 12px;
+  font-size: 95%;
+  outline: none !important;
+  height: 30px;
+}
+  .table-title {
+  border-bottom: 1px solid #e9e9e9;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+  background: rgb(42, 78, 99);
+  margin: -20px 0px 10px;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  }
+  .table-title h2 {
+  margin: 2px 0 0;
+  font-size: 24px;
+}
+  table.table tr th, table.table tr td {
+      border-color: #e9e9e9;
+  padding: 0px 15px;
+  vertical-align: middle;
+  }
+  table.table {
+    table-layout: fixed;
+    width: 100%;
+}
+  table.table td {
+    word-wrap: break-word;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+}
+table.table tr th:first-child {
+  width: 90px;
+}
+table.table tr th:last-child {
+  width: 400px;
+}
+  table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fcfcfc;
+}
+table.table-striped.table-hover tbody tr:hover {
+  background: #f5f5f5;
+}
+  table.table td a {
+      color: #2196f3;
+  }
+table.table td .btn.manage {
+  padding: 2px 10px;
+  background: #37BC9B;
+  color: #fff;
+  border-radius: 2px;
+}
+table.table td .btn.manage:hover {
+  background: #2e9c81;		
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}

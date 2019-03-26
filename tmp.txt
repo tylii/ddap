@@ -1,0 +1,27 @@
+<div class="table-wrapper ">
+        <div class="table-title">
+            <div class="row">
+                <!--
+                    <div class="col-sm-6"><h2>Manage <b>Domains</b></h2></div>   
+                -->
+                <div class="col-sm-6">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="status" value="all" checked="checked"> All
+                        </label>
+                        <label class="btn btn-danger">
+                            <input type="radio" name="status" value="predicted"> Predicted
+                        </label>
+                        <label class="btn btn-success">
+                            <input type="radio" name="status" value="published"> Published
+                        </label>						
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <table class="table table-hover " id="Table1">
+            <thead class="thead-dark">
+                <tr>
